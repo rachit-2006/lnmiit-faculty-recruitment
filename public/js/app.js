@@ -2110,8 +2110,13 @@ async function confirmPanelRecommendation(interviewId) {
 async function renderHODReviewScreen() {
   const container = document.getElementById('content-area');
   try {
-    const apps = await apiRequest('/rc/vacancies/FAC-CS-2026-01/applications');
-    const shortlistedApps = apps.filter(a => a.status === 'SHORTLISTED' || a.status === 'APPROVED_BY_HOD' || a.interviewId);
+    let apps = [];
+    try {
+      apps = await apiRequest('/hod/applications');
+    } catch (e) {
+      apps = await apiRequest('/rc/vacancies/FAC-CS-2026-01/applications');
+    }
+    const shortlistedApps = Array.isArray(apps) ? apps : [];
 
     container.innerHTML = `
       <div class="card">
@@ -2138,16 +2143,22 @@ async function renderHODReviewScreen() {
               </tr>
             </thead>
             <tbody>
-              ${shortlistedApps.map(a => `
+              ${shortlistedApps.length === 0 ? `
+                <tr>
+                  <td colspan="5" style="text-align:center; padding:24px; color:var(--text-muted);">
+                    No candidates currently pending review for this department.
+                  </td>
+                </tr>
+              ` : shortlistedApps.map(a => `
                 <tr>
                   <td><strong>${a.applicationId}</strong></td>
-                  <td>${a.applicantName}</td>
-                  <td>${a.highestDegree} (${a.totalExperience} yrs)</td>
+                  <td>${a.applicantName || 'Candidate'}</td>
+                  <td>${a.highestDegree || 'Postgraduate'} (${a.totalExperience || 0} yrs)</td>
                   <td><span class="status-pill status-${a.status}">${a.status}</span></td>
                   <td>
                     ${a.status === 'APPROVED_BY_HOD' || a.status === 'APPOINTED' ?
                       `<span style="color:#276749; font-weight:bold;">Approved ✓</span>` :
-                      `<button class="btn btn-primary btn-sm" onclick="openHODApprovalModal('${a.applicationId}', '${a.applicantName}')">Review & Approve</button>`
+                      `<button class="btn btn-primary btn-sm" onclick="openHODApprovalModal('${a.applicationId}', '${(a.applicantName || 'Candidate').replace(/'/g, "\\'")}')">Review & Approve</button>`
                     }
                   </td>
                 </tr>

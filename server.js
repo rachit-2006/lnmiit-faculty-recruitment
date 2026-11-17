@@ -33,6 +33,18 @@ app.use((req, res, next) => {
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
+// Ensure database is initialized (for both standalone and serverless environments like Vercel)
+app.use(async (req, res, next) => {
+  if (!db.initialized) {
+    try {
+      await db.init();
+    } catch (err) {
+      console.error("Database initialization error:", err);
+    }
+  }
+  next();
+});
+
 // --- 2. REST API Routes ---
 app.use('/api/auth', authRoutes);
 app.get('/api/demo-users', authController.getDemoUsers);

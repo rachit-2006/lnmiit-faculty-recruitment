@@ -29,15 +29,24 @@ class Database {
       }
 
       // Check if persistent database file exists
-      if (fs.existsSync(config.DB_FILE)) {
+      let sourceFile = config.DB_FILE;
+      const bundledFile = path.join(__dirname, '..', '..', 'data', 'database.json');
+      if (!fs.existsSync(sourceFile) && fs.existsSync(bundledFile)) {
+        sourceFile = bundledFile;
+      }
+
+      if (fs.existsSync(sourceFile)) {
         try {
-          const raw = fs.readFileSync(config.DB_FILE, 'utf8');
+          const raw = fs.readFileSync(sourceFile, 'utf8');
           this.data = JSON.parse(raw);
           // Ensure sessions array exists
           if (!this.data.sessions) this.data.sessions = [];
           if (!this.data.uploadedFiles) this.data.uploadedFiles = [];
           this.initialized = true;
           this.syncToRelationalDb();
+          if (sourceFile !== config.DB_FILE) {
+            this.saveSync();
+          }
           return;
         } catch (err) {
           console.error("Failed to read database file, reinitializing from seed:", err);
