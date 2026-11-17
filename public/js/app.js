@@ -27,8 +27,7 @@ const PERSONAS = [
   { id: 'recruiter', label: '👩‍💼 Anita Verma (Recruitment Cell)', role: 'RECRUITMENT_CELL', email: 'anita.verma@lnmiit.ac.in', password: 'Recruiter@123', defaultScreen: 'rc-dashboard' },
   { id: 'panel1', label: '👨‍🏫 Dr. K. Iyer (Panel 1)', role: 'INTERVIEW_PANEL', email: 'k.iyer@lnmiit.ac.in', password: 'Panel@123', defaultScreen: 'panel-interviews' },
   { id: 'panel2', label: '👨‍🏫 Dr. S. Bansal (Panel 2)', role: 'INTERVIEW_PANEL', email: 's.bansal@lnmiit.ac.in', password: 'Panel@123', defaultScreen: 'panel-interviews' },
-  { id: 'hod', label: '🏛️ Prof. Biswas (HOD CSE)', role: 'HOD', email: 'hod.cse@lnmiit.ac.in', password: 'Hod@123', defaultScreen: 'hod-review' },
-  { id: 'admin', label: '🛠️ System Admin', role: 'ADMINISTRATOR', email: 'admin@lnmiit.ac.in', password: 'Admin@123', defaultScreen: 'db-studio' }
+  { id: 'hod', label: '🏛️ Prof. Biswas (HOD CSE)', role: 'HOD', email: 'hod.cse@lnmiit.ac.in', password: 'Hod@123', defaultScreen: 'hod-review' }
 ];
 
 // Helper: Fetch wrapper with authentic session token and standardized error handling
@@ -168,11 +167,6 @@ function updateNavMenu() {
   } else if (currentUser && currentUser.role === 'HOD') {
     html += `<li><a class="nav-link ${currentScreen === 'hod-review' ? 'active' : ''}" onclick="navigateTo('hod-review')">Shortlisted Approvals</a></li>`;
     html += `<li><a class="nav-link ${currentScreen === 'vacancies' ? 'active' : ''}" onclick="navigateTo('vacancies')">Browse Openings</a></li>`;
-  } else if (currentUser && currentUser.role === 'ADMINISTRATOR') {
-    html += `<li><a class="nav-link ${currentScreen === 'rc-dashboard' ? 'active' : ''}" onclick="navigateTo('rc-dashboard')">Recruitment Dashboard</a></li>`;
-    html += `<li><a class="nav-link ${currentScreen === 'create-vacancy' ? 'active' : ''}" onclick="navigateTo('create-vacancy')">➕ List New Vacancy</a></li>`;
-    html += `<li><a class="nav-link ${currentScreen === 'hod-review' ? 'active' : ''}" onclick="navigateTo('hod-review')">Shortlisted Candidates</a></li>`;
-    html += `<li><a class="nav-link ${currentScreen === 'vacancies' ? 'active' : ''}" onclick="navigateTo('vacancies')">Browse Openings</a></li>`;
   } else {
     // Unauthenticated public visitor
     html += `<li><a class="nav-link ${currentScreen === 'vacancies' ? 'active' : ''}" onclick="navigateTo('vacancies')">Browse Openings</a></li>`;
@@ -180,9 +174,8 @@ function updateNavMenu() {
     html += `<li><a class="nav-link ${currentScreen === 'register' ? 'active' : ''}" onclick="navigateTo('register')" style="color:var(--lnmiit-blue); font-weight:700;">📝 Applicant Sign Up</a></li>`;
   }
 
-  html += `<li><a class="nav-link ${currentScreen === 'db-studio' ? 'active' : ''}" onclick="navigateTo('db-studio')" style="color: #0284c7; font-weight: 700;">🗄️ Database Studio</a></li>`;
   html += `<li><a class="nav-link" onclick="openTraceabilityModal()">📘 Traceability & UML</a></li>`;
-  if (currentUser && ['RECRUITMENT_CELL', 'HOD', 'ADMINISTRATOR'].includes(currentUser.role)) {
+  if (currentUser && ['RECRUITMENT_CELL', 'HOD'].includes(currentUser.role)) {
     html += `<li><a class="nav-link" onclick="openAuditModal()">📜 Audit Log</a></li>`;
   }
 
@@ -197,9 +190,6 @@ function navigateTo(screen, params = {}) {
   container.innerHTML = '<div style="text-align:center; padding: 40px;">⏳ Loading...</div>';
 
   switch (screen) {
-    case 'db-studio':
-      renderDbStudioScreen();
-      break;
     case 'login':
       renderLoginScreen();
       break;
@@ -2813,270 +2803,8 @@ function previewFakeDoc(fileName, docId = null) {
   document.body.insertAdjacentHTML('beforeend', modalHtml);
 }
 
-// ============================================================================
-// 🗄️ Relational Database Studio & SQL Console
-// ============================================================================
 
-let activeStudioTable = 'users';
 
-async function renderDbStudioScreen() {
-  const container = document.getElementById('content-area');
-  try {
-    const status = await apiRequest('/db/status');
-    const tables = await apiRequest('/db/tables');
-
-    let html = `
-      <div class="screen-header" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px;">
-        <div>
-          <span class="badge" style="background:#0f172a; color:#38bdf8; border:1px solid #38bdf8;">BACKEND DATABASE ENGINE</span>
-          <h2 style="margin-top:6px;">🗄️ Relational Database Studio & Live SQL Console</h2>
-          <p style="color:#64748b; margin-top:4px;">
-            Full Relational Storage Engine with 18 Tables, Foreign Keys, SQL Query Engine & Automated Disk Persistence.
-          </p>
-        </div>
-        <div style="display:flex; gap:10px;">
-          <a class="btn btn-primary" href="/api/db/export/sql" download="lnmiit_recruitment_database_dump.sql" style="text-decoration:none; display:inline-flex; align-items:center; gap:6px;">
-            📥 Download SQL Dump (.sql)
-          </a>
-          <button class="btn btn-secondary" onclick="renderDbStudioScreen()">
-            🔄 Refresh
-          </button>
-        </div>
-      </div>
-
-      <!-- Live Database Health & Metrics Grid -->
-      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:16px; margin: 24px 0;">
-        <div class="card" style="padding:16px; border-left:4px solid #10b981;">
-          <div style="font-size:0.8rem; color:#64748b; font-weight:600; text-transform:uppercase;">Database Status</div>
-          <div style="font-size:1.4rem; font-weight:800; color:#10b981; margin-top:4px;">ONLINE ● HEALTHY</div>
-          <div style="font-size:0.75rem; color:#94a3b8; margin-top:4px;">SQLite / PostgreSQL Dialect</div>
-        </div>
-        <div class="card" style="padding:16px; border-left:4px solid #3b82f6;">
-          <div style="font-size:0.8rem; color:#64748b; font-weight:600; text-transform:uppercase;">Relational Tables</div>
-          <div style="font-size:1.4rem; font-weight:800; color:#1e293b; margin-top:4px;">${status.totalTables || 18} Tables</div>
-          <div style="font-size:0.75rem; color:#94a3b8; margin-top:4px;">Normalized Schema (schema.sql)</div>
-        </div>
-        <div class="card" style="padding:16px; border-left:4px solid #8b5cf6;">
-          <div style="font-size:0.8rem; color:#64748b; font-weight:600; text-transform:uppercase;">Total Populated Records</div>
-          <div style="font-size:1.4rem; font-weight:800; color:#1e293b; margin-top:4px;">${status.totalRows || 0} Records</div>
-          <div style="font-size:0.75rem; color:#94a3b8; margin-top:4px;">Across all relational collections</div>
-        </div>
-        <div class="card" style="padding:16px; border-left:4px solid #f59e0b;">
-          <div style="font-size:0.8rem; color:#64748b; font-weight:600; text-transform:uppercase;">Disk Persistence</div>
-          <div style="font-size:1rem; font-weight:700; color:#1e293b; margin-top:6px; word-break:break-all;">recruitment.db</div>
-          <div style="font-size:0.75rem; color:#94a3b8; margin-top:2px;">Atomic Sync + SQL Dump</div>
-        </div>
-      </div>
-
-      <!-- SQL Query Console Card -->
-      <div class="card" style="margin-bottom: 24px; padding:20px; background:#f8fafc; border:1px solid #cbd5e1;">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
-          <h3 style="margin:0; font-size:1.1rem; color:#0f172a; display:flex; align-items:center; gap:8px;">
-            <span>⚡ Interactive SQL Console</span>
-            <span style="font-size:0.75rem; background:#e2e8f0; color:#475569; padding:2px 8px; border-radius:4px;">Real-Time Execution</span>
-          </h3>
-          <span style="font-size:0.8rem; color:#64748b;">Supports SELECT, WHERE, ORDER BY, LIMIT</span>
-        </div>
-
-        <div style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:10px;">
-          <span style="font-size:0.8rem; color:#64748b; align-self:center;">Sample Queries:</span>
-          <button class="btn btn-sm btn-secondary" onclick="setSqlQuery(\`SELECT user_id, name, email, role, department FROM users;\`)">Users</button>
-          <button class="btn btn-sm btn-secondary" onclick="setSqlQuery(\`SELECT application_id, applicant_name, vacancy_id, status FROM applications WHERE status = 'SHORTLISTED';\`)">Shortlisted Apps</button>
-          <button class="btn btn-sm btn-secondary" onclick="setSqlQuery(\`SELECT vacancy_id, designation, department, status, closing_date FROM vacancies;\`)">Vacancies</button>
-          <button class="btn btn-sm btn-secondary" onclick="setSqlQuery(\`SELECT interview_id, candidate_name, department, status, aggregate_score FROM interviews;\`)">Interviews</button>
-          <button class="btn btn-sm btn-secondary" onclick="setSqlQuery(\`SELECT log_id, user_id, action, entity_type, timestamp FROM audit_logs ORDER BY timestamp DESC LIMIT 10;\`)">Recent Audit</button>
-        </div>
-
-        <textarea id="sql-query-input" rows="3" style="width:100%; font-family:monospace; font-size:0.95rem; padding:10px; border-radius:6px; border:1px solid #cbd5e1; background:#ffffff; color:#0f172a;" placeholder="Enter SQL query, e.g. SELECT * FROM applications WHERE status = 'SHORTLISTED';">SELECT user_id, name, email, role, department FROM users;</textarea>
-
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:10px;">
-          <button class="btn btn-primary" onclick="executeSqlStudioQuery()" style="display:inline-flex; align-items:center; gap:6px;">
-            ▶️ Execute SQL Query
-          </button>
-          <span id="query-meta-time" style="font-size:0.85rem; color:#64748b;"></span>
-        </div>
-
-        <div id="sql-query-results" style="margin-top:16px; overflow-x:auto;"></div>
-      </div>
-
-      <!-- Relational Tables Browser Card -->
-      <div class="card" style="padding:20px;">
-        <h3 style="margin-top:0; font-size:1.15rem; color:#0f172a; display:flex; align-items:center; gap:8px;">
-          <span>📋 Relational Tables Explorer</span>
-          <span style="font-size:0.8rem; color:#64748b; font-weight:normal;">(Select a table to inspect live records)</span>
-        </h3>
-
-        <!-- Table Selection Pills -->
-        <div style="display:flex; flex-wrap:wrap; gap:8px; margin: 16px 0;">
-    `;
-
-    for (const t of tables) {
-      const isActive = t.table === activeStudioTable;
-      html += `
-        <button class="btn btn-sm ${isActive ? 'btn-primary' : 'btn-secondary'}" onclick="loadTableDataIntoStudio('${t.table}')" style="display:inline-flex; align-items:center; gap:6px;">
-          <span>${t.table}</span>
-          <span style="background:${isActive ? 'rgba(255,255,255,0.3)' : '#e2e8f0'}; padding:1px 6px; border-radius:10px; font-size:0.7rem;">${t.rowCount}</span>
-        </button>
-      `;
-    }
-
-    html += `
-        </div>
-
-        <!-- Table Data Container -->
-        <div id="table-data-view" style="margin-top:16px; overflow-x:auto;">
-          <div style="text-align:center; padding:30px; color:#64748b;">⏳ Loading table records...</div>
-        </div>
-      </div>
-    `;
-
-    container.innerHTML = html;
-    loadTableDataIntoStudio(activeStudioTable);
-
-  } catch (err) {
-    container.innerHTML = `
-      <div class="alert alert-error">
-        <h4>Database Connection Error</h4>
-        <p>${err.message}</p>
-      </div>
-    `;
-  }
-}
-
-function setSqlQuery(sql) {
-  const el = document.getElementById('sql-query-input');
-  if (el) {
-    el.value = sql;
-    executeSqlStudioQuery();
-  }
-}
-
-async function executeSqlStudioQuery() {
-  const inputEl = document.getElementById('sql-query-input');
-  const resultsEl = document.getElementById('sql-query-results');
-  const metaTimeEl = document.getElementById('query-meta-time');
-  if (!inputEl || !resultsEl) return;
-
-  const query = inputEl.value.trim();
-  if (!query) return;
-
-  resultsEl.innerHTML = '<div style="color:#64748b; padding:12px;">Executing SQL...</div>';
-
-  try {
-    const res = await apiRequest('/db/query', {
-      method: 'POST',
-      body: JSON.stringify({ query })
-    });
-
-    if (metaTimeEl) {
-      metaTimeEl.textContent = `Executed in ${res.executionTimeMs || 0.5} ms (${res.rowCount || (res.rows ? res.rows.length : 0)} rows returned)`;
-    }
-
-    if (!res.rows || res.rows.length === 0) {
-      resultsEl.innerHTML = `
-        <div style="background:#f1f5f9; padding:14px; border-radius:6px; color:#475569; font-size:0.9rem;">
-          Query executed successfully. 0 rows returned.
-        </div>
-      `;
-      return;
-    }
-
-    const columns = Object.keys(res.rows[0]);
-    let tableHtml = `
-      <table class="data-table" style="width:100%; font-size:0.85rem; border-collapse:collapse; background:#ffffff;">
-        <thead>
-          <tr style="background:#f1f5f9; text-align:left;">
-    `;
-
-    for (const c of columns) {
-      tableHtml += `<th style="padding:8px 12px; border-bottom:2px solid #cbd5e1; font-weight:700; color:#334155;">${c}</th>`;
-    }
-
-    tableHtml += `</tr></thead><tbody>`;
-
-    for (const row of res.rows) {
-      tableHtml += `<tr style="border-bottom:1px solid #e2e8f0;">`;
-      for (const c of columns) {
-        const val = row[c];
-        const displayVal = val === null || val === undefined ? '<span style="color:#94a3b8; font-style:italic;">NULL</span>' : (typeof val === 'object' ? JSON.stringify(val) : String(val));
-        tableHtml += `<td style="padding:8px 12px; max-width:320px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;" title="${String(val || '')}">${displayVal}</td>`;
-      }
-      tableHtml += `</tr>`;
-    }
-
-    tableHtml += `</tbody></table>`;
-    resultsEl.innerHTML = tableHtml;
-
-  } catch (err) {
-    if (metaTimeEl) metaTimeEl.textContent = '';
-    resultsEl.innerHTML = `
-      <div style="background:#fee2e2; color:#b91c1c; padding:12px; border-radius:6px; font-size:0.85rem;">
-        <strong>SQL Error:</strong> ${err.message}
-      </div>
-    `;
-  }
-}
-
-async function loadTableDataIntoStudio(tableName) {
-  activeStudioTable = tableName;
-  const container = document.getElementById('table-data-view');
-  if (!container) return;
-
-  container.innerHTML = '<div style="text-align:center; padding:20px; color:#64748b;">⏳ Fetching records for table <strong>' + tableName + '</strong>...</div>';
-
-  try {
-    const data = await apiRequest(`/db/tables/${tableName}?limit=50`);
-    if (!data.rows || data.rows.length === 0) {
-      container.innerHTML = `
-        <div style="background:#f8fafc; padding:24px; text-align:center; color:#64748b; border:1px dashed #cbd5e1; border-radius:6px;">
-          Table <code>${tableName}</code> currently has 0 rows.
-        </div>
-      `;
-      return;
-    }
-
-    const columns = Object.keys(data.rows[0]);
-    let html = `
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
-        <span style="font-size:0.85rem; color:#475569;">
-          Showing <strong>${data.rows.length}</strong> of <strong>${data.totalCount}</strong> rows in <code>${tableName}</code>
-        </span>
-        <button class="btn btn-sm btn-secondary" onclick="setSqlQuery('SELECT * FROM ${tableName} LIMIT 25;')">
-          Open in SQL Console
-        </button>
-      </div>
-      <table class="data-table" style="width:100%; font-size:0.85rem; border-collapse:collapse; background:#ffffff;">
-        <thead>
-          <tr style="background:#f8fafc;">
-    `;
-
-    for (const c of columns) {
-      html += `<th style="padding:8px 12px; border-bottom:2px solid #cbd5e1; text-align:left; font-weight:700; color:#334155;">${c}</th>`;
-    }
-
-    html += `</tr></thead><tbody>`;
-
-    for (const row of data.rows) {
-      html += `<tr style="border-bottom:1px solid #e2e8f0;">`;
-      for (const c of columns) {
-        const val = row[c];
-        const displayVal = val === null || val === undefined ? '<span style="color:#94a3b8; font-style:italic;">NULL</span>' : (typeof val === 'object' ? JSON.stringify(val) : String(val));
-        html += `<td style="padding:8px 12px; max-width:280px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;" title="${String(val || '')}">${displayVal}</td>`;
-      }
-      html += `</tr>`;
-    }
-
-    html += `</tbody></table>`;
-    container.innerHTML = html;
-
-  } catch (err) {
-    container.innerHTML = `
-      <div style="background:#fee2e2; color:#b91c1c; padding:12px; border-radius:6px;">
-        Failed to load table data: ${err.message}
-      </div>
-    `;
-  }
-}
 
 async function resetEntireDemo() {
   if (!confirm("Reset all prototype data to initial seed state?")) return;

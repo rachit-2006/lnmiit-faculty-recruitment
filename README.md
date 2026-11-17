@@ -15,7 +15,7 @@
 
 The **Faculty Recruitment Workflow Management System** is a secure, persistent, role-governed web application designed to digitize and streamline the faculty hiring lifecycle at LNMIIT—from vacancy creation and applicant self-service registration to multi-round document screening, panel-based scoring, departmental HOD approval, and official appointment letter generation.
 
-The system enforces sound software engineering practices developed across **Lab Assignments 1 through 7**, featuring an immutable audit trail, cryptographically secure password hashing (`crypto.scrypt`), role-based access control (RBAC), fine-grained data ownership isolation, a built-in persistent Relational Database Engine with an interactive SQL Studio, and a 49-test automated verification suite with 100% pass rate.
+The system enforces sound software engineering practices developed across **Lab Assignments 1 through 7**, featuring an immutable audit trail, cryptographically secure password hashing (`crypto.scrypt`), role-based access control (RBAC), fine-grained data ownership isolation, a persistent 18-table Relational Database backend, and a 44-test automated verification suite with 100% pass rate.
 
 ---
 
@@ -35,7 +35,7 @@ npm install
 ```bash
 cp .env.example .env
 ```
-Default parameters run out-of-the-box on port `3000` with local atomic JSON persistence.
+Default parameters run out-of-the-box on port `3000` with local persistent database storage.
 
 ### 3. Start the Server
 ```bash
@@ -48,7 +48,7 @@ The server will start at:
 ```bash
 npm test
 ```
-Runs all 49 unit and integration tests across Authentication, Relational Database & SQL Engine, RBAC, and Workflow State Transitions with **100% pass rate**.
+Runs all 44 unit and integration tests across Authentication, RBAC, and Recruitment Workflow State Transitions with **100% pass rate**.
 
 ---
 
@@ -63,7 +63,6 @@ The application is pre-seeded with institutional test personas matching the scen
 | **Interview Panel 1** | Dr. K. Iyer | `k.iyer@lnmiit.ac.in` | `Panel@123` | Assigned interviews, candidate attendance, scoring (0–10) & comments (S-09, S-10, S-11) |
 | **Interview Panel 2** | Dr. S. Bansal | `s.bansal@lnmiit.ac.in` | `Panel@123` | Secondary panel evaluations and recommendation consensus (S-09, S-10, S-11) |
 | **Head of Department (CSE)** | Prof. P. K. Biswas | `hod.cse@lnmiit.ac.in` | `Hod@123` | Review shortlisted candidates for CSE department and approve/reject appointment (UC-012) |
-| **Administrator** | System Admin | `admin@lnmiit.ac.in` | `Admin@123` | System oversight, role management, and immutable audit logs |
 
 ---
 
@@ -194,27 +193,13 @@ The application features a fully working, persistent multi-model database layer 
 | 17 | `notifications` | `notification_id` | In-app alerts and notifications delivered to users across stages |
 | 18 | `audit_logs` | `log_id` | Immutable security and operational audit trail with timestamps |
 
-### 3. Interactive Database Studio & SQL Console
-- Accessible in the web application UI under the **"🗄️ Database Studio"** tab (or Demo Bar button).
-- **Engine Status Dashboard:** Real-time health metrics, active storage file paths, table counts, and total record statistics.
-- **SQL Query Console:** Run arbitrary live SQL queries (e.g., `SELECT * FROM vacancies WHERE status = 'PUBLISHED'`) with instant execution metrics and tabular result visualization.
-- **18-Table Explorer:** Instant tabbed switching between any of the 18 normalized tables with row counts and schema views.
-- **Database Export:** One-click instant download of the complete `lnmiit_recruitment_database_dump.sql` database dump.
-
-### 4. REST Database API Endpoints
-- `GET /api/db/status` — Database engine health, active tables, total row count, file sizes.
-- `GET /api/db/tables` — Schema definitions and primary keys for all 18 tables.
-- `GET /api/db/tables/:table` — Browse records of any specific table.
-- `POST /api/db/query` — Execute arbitrary SQL queries through the relational engine.
-- `GET /api/db/export/sql` — Stream the complete ANSI-standard SQL dump.
-
-### 5. Alternative Enterprise Persistence Schemas
+### 3. Alternative Enterprise Persistence Schemas
 - **Enterprise PostgreSQL DDL:** [`src/db/schema.sql`](file:///C:/Users/RACHIT%20PODDAR/Desktop/lnmiit-faculty-recruitment/src/db/schema.sql) with PostgreSQL triggers, constraints, foreign keys, and indexes.
 - **Enterprise MongoDB Schema:** [`src/db/mongoSchema.js`](file:///C:/Users/RACHIT%20PODDAR/Desktop/lnmiit-faculty-recruitment/src/db/mongoSchema.js) with Mongoose schemas and indexes.
 
 ---
 
-## 🧪 Automated Test Suite (49 Tests)
+## 🧪 Automated Test Suite (44 Tests)
 
 Run the test suite using:
 ```bash
@@ -227,13 +212,6 @@ npm test
   ✔ FR-001: Applicant Registration (6 tests: valid reg, duplicate 409, short pass 422, mismatch 422, invalid email 422, anti-privilege escalation)
   ✔ FR-002, FR-003, FR-004: User Authentication & Login (5 tests: applicant login, all institutional roles, bad password 401, unknown email 401, missing credentials 401)
   ✔ FR-005: Logout & Session Termination (2 tests: server-side token invalidation, rejection of fake/missing tokens)
-
-✔ Relational Backend Database & SQL Studio Test Suite (5 tests)
-  ✔ Database Engine Health Status & 18 Relational Tables (GET /api/db/status)
-  ✔ Relational Table Schema Definitions (GET /api/db/tables)
-  ✔ Relational Table Browsing (GET /api/db/tables/:table)
-  ✔ Relational SQL Query Processor (POST /api/db/query)
-  ✔ Standard SQL Dump Export & Download (GET /api/db/export/sql)
 
 ✔ Role-Based Authorization & Data Isolation Test Suite (16 tests)
   ✔ Applicant Role Boundaries & Ownership Enforcement (9 tests: view own application, forbid viewing other candidates 403, forbid editing others 403, forbid RC endpoints 403, forbid vacancy creation 403, forbid panel endpoints 403, forbid HOD endpoints 403, forbid audit logs 403)
@@ -249,7 +227,7 @@ npm test
   ✔ Interview Panel Evaluation & Score Range Validation (4 tests: reject score > 10 422, reject score < 0 422, reject empty comments 422, accept valid evaluation 201)
   ✔ End-to-End Recruitment Cycle (3 tests: panel recommendation to SHORTLIST, HOD approval to APPROVED_BY_HOD, RC generates APPOINTED letter)
 
-Total: 49 passed, 0 failed across 17 suites (100% success rate)
+Total: 44 passed, 0 failed across 16 suites (100% success rate)
 ```
 
 ---
@@ -270,7 +248,7 @@ lnmiit-faculty-recruitment/
 │   ├── css/
 │   │   └── style.css          # LNMIIT branding, responsive layout, auth styling
 │   ├── js/
-│   │   └── app.js             # Client SPA controller, persona switcher, SQL Studio
+│   │   └── app.js             # Client SPA controller & persona switcher
 │   └── index.html             # Single-page application shell
 ├── src/
 │   ├── config.js              # Centralized environment configuration
@@ -279,7 +257,6 @@ lnmiit-faculty-recruitment/
 │   │   ├── appointmentController.js
 │   │   ├── auditController.js
 │   │   ├── authController.js
-│   │   ├── databaseController.js # Relational SQL Studio API controller
 │   │   ├── documentController.js
 │   │   ├── hodController.js
 │   │   ├── interviewController.js
@@ -297,7 +274,6 @@ lnmiit-faculty-recruitment/
 │   │   ├── errorHandler.js    # Assignment 7 compliant error payload formatter
 │   │   └── rbac.js            # Role-based access control & ownership checking
 │   ├── routes/                # Express API route declarations
-│   │   └── databaseRoutes.js  # Database Studio & SQL query endpoints
 │   ├── services/
 │   │   ├── auditService.js    # Immutable audit logging
 │   │   ├── authService.js     # scrypt hashing & session management
@@ -308,10 +284,6 @@ lnmiit-faculty-recruitment/
 │   └── documents/             # Safe storage for uploaded applicant documents
 ├── tests/
 │   ├── auth.test.js           # 13 tests for registration, login, logout, passwords
-│   ├── database.test.js       # 5 tests for relational engine, SQL queries, export
-│   ├── rbac.test.js           # 16 tests for roles, data isolation & HOD scoping
-│   ├── testHelper.js          # In-memory sandboxed test dispatch runner
-│   └── workflow.test.js       # 15 tests for full recruitment state machine
 │   ├── rbac.test.js           # 16 tests for roles, data isolation & HOD scoping
 │   ├── testHelper.js          # In-memory sandboxed test dispatch runner
 │   └── workflow.test.js       # 15 tests for full recruitment state machine

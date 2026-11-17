@@ -15,7 +15,6 @@ const interviewRoutes = require('./src/routes/interviewRoutes');
 const hodRoutes = require('./src/routes/hodRoutes');
 const notificationRoutes = require('./src/routes/notificationRoutes');
 const auditRoutes = require('./src/routes/auditRoutes');
-const databaseRoutes = require('./src/routes/databaseRoutes');
 const authController = require('./src/controllers/authController');
 
 const app = express();
@@ -47,7 +46,6 @@ app.use('/api/panel', interviewRoutes);
 app.use('/api/hod', hodRoutes);
 app.use('/api/notifications', notificationRoutes);
 app.use('/api/audit-logs', auditRoutes);
-app.use('/api/db', databaseRoutes);
 
 // --- 3. Static Assets & SPA Fallback ---
 app.use(express.static(config.PUBLIC_DIR));
