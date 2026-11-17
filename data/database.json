@@ -4,7 +4,7 @@
       "userId": "U102",
       "name": "Rahul Sharma",
       "email": "rahul.sharma@example.com",
-      "passwordHash": "87d170f509b2597bb025a7c50d30baaf:ba991ab3bdc70fa813579d4c7474956e76a9a4efc11a0bae128be4385d849ba5e117775fb3eff164ba4f71a76297c58203acf0e8aa897357929ca46d5089e1d1",
+      "passwordHash": "9abc2cc98e2969cb7c27f8f28c5bd8a7:d8b3687d59a525bb24912a92ae6726aa35cfa1e1e7dda235b800114a0f96f8214bd65eec8969265f9109b37cf44bddaadbc7616f88dac180e0035f8ea3a1dcae",
       "role": "APPLICANT",
       "active": true,
       "applicantId": "A102",
@@ -14,7 +14,7 @@
       "userId": "U103",
       "name": "Priya Mehta",
       "email": "priya.mehta@example.com",
-      "passwordHash": "0a4480d83e486db38008b5926101b6c7:7090aaa7b7229c55475e5dd3e485390907ce7a95d27b1402e776f9b8968239baf748398f03d44fad3f031c00506d62dabd38ce582bf1a1f1fec47f0cab8c1fd5",
+      "passwordHash": "eca8c03f208b7139ff570f09ca5d7fd3:695cd392b26667697c5e6e172d67af19c20c645e11e3b0a3dd8e93e7d8f3f7ae70b1769f838f3fd6d0229d0a66e39ce4db986f036694c1e67ad8c448b1707616",
       "role": "APPLICANT",
       "active": true,
       "applicantId": "A103",
@@ -24,7 +24,7 @@
       "userId": "U104",
       "name": "Arjun Rao",
       "email": "arjun.rao@example.com",
-      "passwordHash": "b8cc0d15c20c72bc5b6034d70572a16b:01148910e85af929011e13a012105f176c7af1aa1a0a46d25472999c7cb9b5940aa80261873c2dfeac26d44e72c09289f1a1616589a5d97910436d7498c9d1c4",
+      "passwordHash": "3a1a9a396b103dbc9e2d6f4562355b90:49b09d5757c2f53307f2fe2a44f7ddfb91235f30a889bcb6bf6b92baf2cea51d318aac47cebe3f53ddf3a67123c96422738330b643b7b938c6dc1eb6b422c4c9",
       "role": "APPLICANT",
       "active": true,
       "applicantId": "A104",
@@ -34,7 +34,7 @@
       "userId": "U007",
       "name": "Anita Verma",
       "email": "anita.verma@lnmiit.ac.in",
-      "passwordHash": "91dcc8d7c9fdd47a0cc34d1860a71b9c:d9347c296197de78683b69cad78b4df0529c7a9a41ed4dcd6c0ff35ef77f2d13da48dff5d53c89fe23cec2c5e5048ad2a286fa785ca1261b81922f2ed2749370",
+      "passwordHash": "48f3ac1375bc86da820f96088901c5e7:8f492a8bad8df8ec83924f41dd7d77ef9d70c695056347d1e31ee73c906277e579f6d962a1e76acf3d46b33b62d12229e5ffc14a236a0a8ee261aa0d7ecdc647",
       "role": "RECRUITMENT_CELL",
       "active": true,
       "employeeId": "RC-07",
@@ -44,7 +44,7 @@
       "userId": "U008",
       "name": "Dr. K. Iyer",
       "email": "k.iyer@lnmiit.ac.in",
-      "passwordHash": "6abdd1b3860233d80d129cdcf0e53775:b3d42284fece4b92885764fb415be678b9e5bbbdd182341114a6b5989535f0f643a7578f761f922795d193babf9c6714c1f85b31138a21af9469ede48aab5f34",
+      "passwordHash": "e83f854c92044b274fe5d068d2ec3994:4193c5cb08b2a77a46563b38670f0cb758ebb6c93d4def80c7735470718b3c77636520ea692fefc81a1ddce53638a13d0cf63e73ac6bf89aad30035b42bf932c",
       "role": "INTERVIEW_PANEL",
       "active": true,
       "memberId": "PNL-01",
@@ -55,7 +55,7 @@
       "userId": "U009",
       "name": "Dr. S. Bansal",
       "email": "s.bansal@lnmiit.ac.in",
-      "passwordHash": "82d01775c0e1c96d39e65b43c733a8cf:c78ea1384fcdafce897ce555f90dcd425cfb51b254842cc552863da004836c000a24a503bacb1bb7fa2d45c007306d014cff69725c46a1412a28e4dd51ba91a5",
+      "passwordHash": "5d6866fc5a05a6f9010e242a86de265c:d249c804e40bc79c89e937fa531d8a714e7695005a8e5ccc90ab8d0d30d4c733709966f83945a3616e28daaaac6d43efe2a60e3dc79da62b64641c84731d57ab",
       "role": "INTERVIEW_PANEL",
       "active": true,
       "memberId": "PNL-02",
@@ -66,7 +66,7 @@
       "userId": "U010",
       "name": "Dr. M. Rao",
       "email": "m.rao@lnmiit.ac.in",
-      "passwordHash": "b1535c52880275ddc18deee614815fce:400fbba322d9d4bf048fee5f1b2394b916cf4561468100910fe8abaee9d38d90f18fefe19a6df3a716c89399c5de55179fd6f2f0d6467b9b0df4ce757ea8a9bf",
+      "passwordHash": "0eba653ad6b0f679a0c90d16f5db82d2:70030d941d2af6b5bf9eddaefc394486ee02145228b9b59a2bc025ec1f0a9ec0ee96692736c59a2e4c1f6b6910c98354a6ad83ff9bd54157efedaf3adb5df4c9",
       "role": "INTERVIEW_PANEL",
       "active": true,
       "memberId": "PNL-03",
@@ -77,7 +77,7 @@
       "userId": "U001",
       "name": "Prof. P. K. Biswas",
       "email": "hod.cse@lnmiit.ac.in",
-      "passwordHash": "0c62e5d0397da7198539765375383cc1:931cd30083e7c221450a57553175e24682b0ec9fa34ee7fe6ca6eb183aea96d3e1f00bf8eddfa359a7a340d7f695ed6d6c40e3c694c03ad3f3cc8abec36d8861",
+      "passwordHash": "57634bf30d6ade4dab656b2566206867:349df709823008488ed93579120f5008b7a3e994ea2b1d11848f1de1b74c0d35b71d05f80f831c91eaf236e034ca202824d9f1d1090e92606f385d08895e9e59",
       "role": "HOD",
       "active": true,
       "hodId": "HOD-CSE-01",
@@ -87,49 +87,9 @@
       "userId": "U000",
       "name": "System Administrator",
       "email": "admin@lnmiit.ac.in",
-      "passwordHash": "4c9737be4747a9cd1b6dcbfc755663c5:66baeebfc967aad4ad1480e7b5727f8a3ec3838c584c56451c0fe70d1fdffa6cae31b93f9040e3a241e922c9c1090a85bf7c8ce20f9c10fc77467ec227928765",
+      "passwordHash": "46efe766ede907a4db39747c667b5e6b:05deb32ac650d980afa8fc9892257ccbe3979ad21302dab633a7732ea6a334ec198aa8c9ed86a71c7384388f8638cd6890543e3d3781638112cc11b005ef6d6e",
       "role": "ADMINISTRATOR",
       "active": true
-    },
-    {
-      "userId": "U4365GML",
-      "name": "Dr. New Applicant",
-      "email": "workflow_cand_1794942394259@example.com",
-      "passwordHash": "560463c9325c3d65049df4f1a610296f:5ebc8313fe85427bb4840cd06f13b2b4a43708f9ca72d449a9fa0e216757642e479ec17a700ebfa90dfd186404ece53fae0616ac89effd3ed3b56cd2318b108e",
-      "role": "APPLICANT",
-      "active": true,
-      "applicantId": "A4365GML",
-      "phone": ""
-    },
-    {
-      "userId": "U4578QBV",
-      "name": "Dr. Dupe Candidate",
-      "email": "dupe_cand_1794942394477@example.com",
-      "passwordHash": "557bc94b737186adac076afe294696bb:8b15c7ff4cc9fe1af04f5b6d3814f2ac2fc7d562bb41d859bb496cec1ffeaaf6d47fbb87dcad5e2f136893f838a6655a6589e6f3a05215eadccc92bb3def26c0",
-      "role": "APPLICANT",
-      "active": true,
-      "applicantId": "A4578QBV",
-      "phone": ""
-    },
-    {
-      "userId": "U6188U3Y",
-      "name": "Dr. Doc Tester",
-      "email": "doc_cand_1794942396079@example.com",
-      "passwordHash": "c6c510a1f63d152a38e7dfa850a41bcb:4aa805391cfcee6d7825aeb2fd6aa0d3b37fef982502c63ea7512f60d7c68e060b330dc8517a4fc026ea74920889d710ec26a23632902c61864e94836f11e888",
-      "role": "APPLICANT",
-      "active": true,
-      "applicantId": "A6188U3Y",
-      "phone": ""
-    },
-    {
-      "userId": "U6875XS2",
-      "name": "Dr. Submit Tester",
-      "email": "sub_cand_1794942396772@example.com",
-      "passwordHash": "9b6d5300d2c3058eb846e2c154a61a90:e7ee3b1449b0f047ae165cb6b5b5b0756017244fe9e55f04ccb6581c23b026801bfc66edc4f09b8990c83e776f9829f0ca0af145df5d26e742ba8ea1a41e1803",
-      "role": "APPLICANT",
-      "active": true,
-      "applicantId": "A6875XS2",
-      "phone": ""
     }
   ],
   "applicantProfiles": {
@@ -286,50 +246,6 @@
           "totalExperience": 1
         }
       ]
-    },
-    "A4365GML": {
-      "profileId": "P4365GML",
-      "applicantId": "A4365GML",
-      "phone": "",
-      "dateOfBirth": "",
-      "willingnessToRelocate": true,
-      "hasDisability": false,
-      "education": [],
-      "experience": [],
-      "researchPapers": []
-    },
-    "A4578QBV": {
-      "profileId": "P4578QBV",
-      "applicantId": "A4578QBV",
-      "phone": "",
-      "dateOfBirth": "",
-      "willingnessToRelocate": true,
-      "hasDisability": false,
-      "education": [],
-      "experience": [],
-      "researchPapers": []
-    },
-    "A6188U3Y": {
-      "profileId": "P6188U3Y",
-      "applicantId": "A6188U3Y",
-      "phone": "",
-      "dateOfBirth": "",
-      "willingnessToRelocate": true,
-      "hasDisability": false,
-      "education": [],
-      "experience": [],
-      "researchPapers": []
-    },
-    "A6875XS2": {
-      "profileId": "P6875XS2",
-      "applicantId": "A6875XS2",
-      "phone": "",
-      "dateOfBirth": "",
-      "willingnessToRelocate": true,
-      "hasDisability": false,
-      "education": [],
-      "experience": [],
-      "researchPapers": []
     }
   },
   "vacancies": [
@@ -447,7 +363,7 @@
       "vacancyId": "FAC-CS-2026-01",
       "applicationDate": "2026-09-10",
       "submissionDate": "2026-09-10T14:31:55+05:30",
-      "status": "APPOINTED",
+      "status": "ELIGIBLE",
       "highestDegree": "M.Tech",
       "totalExperience": 3,
       "documents": [
@@ -506,23 +422,11 @@
       },
       "interviewId": "INT-031",
       "hodReview": {
-        "reviewed": true,
-        "approved": true,
-        "decision": "APPROVED",
-        "comments": "Approved appointment for Department of Computer Science.",
-        "decisionDate": "2026-11-17T19:06:38.370Z"
+        "reviewed": false,
+        "approved": null,
+        "comments": ""
       },
-      "appointmentLetter": {
-        "referenceNo": "LNMIIT/REC/2026/APPT-8442",
-        "issueDate": "18 November 2026",
-        "candidateName": "Rahul Sharma",
-        "position": "Assistant Professor",
-        "department": "Computer Science",
-        "academicLevel": "Level 10",
-        "basicPay": "₹ 57,700/- per month (Pay Matrix Level 10)",
-        "reportingDate": "1st January 2027",
-        "issuedBy": "Registrar / Recruitment Cell, LNMIIT Jaipur"
-      }
+      "appointmentLetter": null
     },
     {
       "applicationId": "APP-0161",
@@ -680,187 +584,6 @@
       "interviewId": null,
       "hodReview": null,
       "appointmentLetter": null
-    },
-    {
-      "applicationId": "APP-0105",
-      "applicantId": "A4365GML",
-      "applicantName": "Dr. New Applicant",
-      "applicantEmail": "workflow_cand_1794942394259@example.com",
-      "vacancyId": "FAC-EC-2026-03",
-      "applicationDate": "2026-11-17",
-      "submissionDate": null,
-      "status": "DRAFT",
-      "highestDegree": "M.Tech",
-      "totalExperience": 0,
-      "documents": [],
-      "screeningRecord": null,
-      "interviewId": null,
-      "hodReview": null,
-      "appointmentLetter": null
-    },
-    {
-      "applicationId": "APP-0106",
-      "applicantId": "A4578QBV",
-      "applicantName": "Dr. Dupe Candidate",
-      "applicantEmail": "dupe_cand_1794942394477@example.com",
-      "vacancyId": "FAC-EC-2026-03",
-      "applicationDate": "2026-11-17",
-      "submissionDate": "2026-11-17T19:06:35.996Z",
-      "status": "SUBMITTED",
-      "highestDegree": "M.Tech",
-      "totalExperience": 0,
-      "documents": [
-        {
-          "documentId": "DOC-5022-U2WE",
-          "documentType": "AADHAR_CARD",
-          "fileName": "aadhar_card.pdf",
-          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_4f2d4908-1786-4e83-bcf0-9e3738d2b995_aadhar_card.pdf",
-          "fileSizeKB": 1,
-          "mimeType": "application/pdf",
-          "uploadDate": "2026-11-17T19:06:35.022Z",
-          "verificationStatus": "PENDING"
-        },
-        {
-          "documentId": "DOC-5260-0UXE",
-          "documentType": "MASTERS_DEGREE",
-          "fileName": "masters_degree.pdf",
-          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_48cb12eb-5651-439f-a52d-b22a326d6c29_masters_degree.pdf",
-          "fileSizeKB": 1,
-          "mimeType": "application/pdf",
-          "uploadDate": "2026-11-17T19:06:35.260Z",
-          "verificationStatus": "PENDING"
-        },
-        {
-          "documentId": "DOC-5548-N7KJ",
-          "documentType": "EXPERIENCE_CERTIFICATE",
-          "fileName": "experience_certificate.pdf",
-          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_d61f85bf-cf2c-4d27-9025-0980dc256ce2_experience_certificate.pdf",
-          "fileSizeKB": 1,
-          "mimeType": "application/pdf",
-          "uploadDate": "2026-11-17T19:06:35.548Z",
-          "verificationStatus": "PENDING"
-        },
-        {
-          "documentId": "DOC-5748-IZ1S",
-          "documentType": "MARKSHEET_10",
-          "fileName": "marksheet_10.pdf",
-          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_ad31297d-4a54-47e9-8b9e-e2a62c6e42ce_marksheet_10.pdf",
-          "fileSizeKB": 1,
-          "mimeType": "application/pdf",
-          "uploadDate": "2026-11-17T19:06:35.748Z",
-          "verificationStatus": "PENDING"
-        },
-        {
-          "documentId": "DOC-5951-V7RN",
-          "documentType": "BIRTH_CERTIFICATE",
-          "fileName": "birth_certificate.pdf",
-          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_c13dfef7-85e9-4e6f-aa14-d2a8d9b1ef9b_birth_certificate.pdf",
-          "fileSizeKB": 1,
-          "mimeType": "application/pdf",
-          "uploadDate": "2026-11-17T19:06:35.951Z",
-          "verificationStatus": "PENDING"
-        }
-      ],
-      "screeningRecord": null,
-      "interviewId": null,
-      "hodReview": null,
-      "appointmentLetter": null
-    },
-    {
-      "applicationId": "APP-0107",
-      "applicantId": "A6188U3Y",
-      "applicantName": "Dr. Doc Tester",
-      "applicantEmail": "doc_cand_1794942396079@example.com",
-      "vacancyId": "FAC-EC-2026-03",
-      "applicationDate": "2026-11-17",
-      "submissionDate": null,
-      "status": "DRAFT",
-      "highestDegree": "M.Tech",
-      "totalExperience": 0,
-      "documents": [
-        {
-          "documentId": "DOC-6702-S4FP",
-          "documentType": "AADHAR_CARD",
-          "fileName": "valid_aadhar.pdf",
-          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_6e37c330-c068-49f4-9d55-1e5e0f9c825b_valid_aadhar.pdf",
-          "fileSizeKB": 1,
-          "mimeType": "application/pdf",
-          "uploadDate": "2026-11-17T19:06:36.702Z",
-          "verificationStatus": "PENDING"
-        }
-      ],
-      "screeningRecord": null,
-      "interviewId": null,
-      "hodReview": null,
-      "appointmentLetter": null
-    },
-    {
-      "applicationId": "APP-0108",
-      "applicantId": "A6875XS2",
-      "applicantName": "Dr. Submit Tester",
-      "applicantEmail": "sub_cand_1794942396772@example.com",
-      "vacancyId": "FAC-EC-2026-03",
-      "applicationDate": "2026-11-17",
-      "submissionDate": "2026-11-17T19:06:38.048Z",
-      "status": "SUBMITTED",
-      "highestDegree": "M.Tech",
-      "totalExperience": 0,
-      "documents": [
-        {
-          "documentId": "DOC-7136-QXR0",
-          "documentType": "AADHAR_CARD",
-          "fileName": "aadhar_card.pdf",
-          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_77d26e19-efce-4b65-8d4a-8f65cfbb3b35_aadhar_card.pdf",
-          "fileSizeKB": 1,
-          "mimeType": "application/pdf",
-          "uploadDate": "2026-11-17T19:06:37.136Z",
-          "verificationStatus": "PENDING"
-        },
-        {
-          "documentId": "DOC-7337-WPY8",
-          "documentType": "MASTERS_DEGREE",
-          "fileName": "masters_degree.pdf",
-          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_6f4fbaab-144e-415e-88fe-493dce1a6c1c_masters_degree.pdf",
-          "fileSizeKB": 1,
-          "mimeType": "application/pdf",
-          "uploadDate": "2026-11-17T19:06:37.337Z",
-          "verificationStatus": "PENDING"
-        },
-        {
-          "documentId": "DOC-7523-UGMA",
-          "documentType": "EXPERIENCE_CERTIFICATE",
-          "fileName": "experience_certificate.pdf",
-          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_b9df8582-bf28-4e64-b1b7-31ab0519c1ff_experience_certificate.pdf",
-          "fileSizeKB": 1,
-          "mimeType": "application/pdf",
-          "uploadDate": "2026-11-17T19:06:37.523Z",
-          "verificationStatus": "PENDING"
-        },
-        {
-          "documentId": "DOC-7728-XY8X",
-          "documentType": "MARKSHEET_10",
-          "fileName": "marksheet_10.pdf",
-          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_fa51a375-060a-4714-95bb-947d7dadbf1a_marksheet_10.pdf",
-          "fileSizeKB": 1,
-          "mimeType": "application/pdf",
-          "uploadDate": "2026-11-17T19:06:37.728Z",
-          "verificationStatus": "PENDING"
-        },
-        {
-          "documentId": "DOC-8005-MDXM",
-          "documentType": "BIRTH_CERTIFICATE",
-          "fileName": "birth_certificate.pdf",
-          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_855e4238-aefe-41f9-9dbb-965642b9d732_birth_certificate.pdf",
-          "fileSizeKB": 1,
-          "mimeType": "application/pdf",
-          "uploadDate": "2026-11-17T19:06:38.005Z",
-          "verificationStatus": "PENDING"
-        }
-      ],
-      "screeningRecord": null,
-      "interviewId": null,
-      "hodReview": null,
-      "appointmentLetter": null
     }
   ],
   "interviews": [
@@ -873,7 +596,7 @@
       "designation": "Assistant Professor",
       "interviewDate": "2026-09-25",
       "interviewTime": "10:00",
-      "status": "COMPLETED",
+      "status": "VALIDATED",
       "panel": [
         {
           "memberId": "PNL-01",
@@ -924,8 +647,8 @@
       ],
       "aggregateScore": 8,
       "recommendation": "RECOMMENDED",
-      "panelRemarks": "Highly recommended for Assistant Professor in Computer Science",
-      "finalized": true
+      "panelRemarks": "Recommended unanimously by the CSE interview panel for Assistant Professor position.",
+      "finalized": false
     },
     {
       "interviewId": "INT-032",
@@ -962,9 +685,9 @@
           "evaluationId": "EVL-032-1",
           "memberId": "PNL-01",
           "memberName": "Dr. K. Iyer",
-          "score": 8.5,
-          "comments": "Solid grasp of data structures and distributed computing systems.",
-          "evaluationDate": "2026-11-17T19:06:38.193Z"
+          "score": 8,
+          "comments": "Excellent command over cloud computing and microservices architecture.",
+          "evaluationDate": "2026-09-25T11:50:00+05:30"
         }
       ],
       "aggregateScore": null,
@@ -1035,46 +758,6 @@
   ],
   "notifications": [
     {
-      "notificationId": "NOTIF-8542",
-      "recipientId": "A102",
-      "type": "APPLICATION_CONFIRMATION",
-      "message": "Congratulations! Official appointment letter generated for your selection as Assistant Professor. Reference: LNMIIT/REC/2026/APPT-8442",
-      "timestamp": "2026-11-17T19:06:38.542Z",
-      "status": "SENT"
-    },
-    {
-      "notificationId": "NOTIF-8370",
-      "recipientId": "U007",
-      "type": "EVALUATION_RESULT",
-      "message": "HOD has approved appointment of Rahul Sharma for vacancy FAC-CS-2026-01. Ready for appointment letter generation.",
-      "timestamp": "2026-11-17T19:06:38.370Z",
-      "status": "SENT"
-    },
-    {
-      "notificationId": "NOTIF-8259",
-      "recipientId": "U001",
-      "type": "EVALUATION_RESULT",
-      "message": "Candidate Rahul Sharma (APP-0158) has been RECOMMENDED by panel for HOD final review.",
-      "timestamp": "2026-11-17T19:06:38.259Z",
-      "status": "SENT"
-    },
-    {
-      "notificationId": "NOTIF-8112",
-      "recipientId": "A6875XS2",
-      "type": "APPLICATION_CONFIRMATION",
-      "message": "Application APP-0108 submitted successfully for Associate Professor (Electronics & Comm.).",
-      "timestamp": "2026-11-17T19:06:38.112Z",
-      "status": "SENT"
-    },
-    {
-      "notificationId": "NOTIF-6054",
-      "recipientId": "A4578QBV",
-      "type": "APPLICATION_CONFIRMATION",
-      "message": "Application APP-0106 submitted successfully for Associate Professor (Electronics & Comm.).",
-      "timestamp": "2026-11-17T19:06:36.054Z",
-      "status": "SENT"
-    },
-    {
       "notificationId": "NOTIF-001",
       "recipientId": "U102",
       "type": "APPLICATION_CONFIRMATION",
@@ -1109,236 +792,28 @@
   ],
   "auditLogs": [
     {
-      "logId": "LOG-8522-S0OY",
-      "userId": "U007",
-      "action": "APPOINTMENT_LETTER_GENERATED",
-      "entityType": "Application",
-      "entityId": "APP-0158",
-      "timestamp": "2026-11-17T19:06:38.522Z"
-    },
-    {
-      "logId": "LOG-8418-4ORM",
-      "userId": "HOD-CSE-01",
-      "action": "HOD_APPROVED",
-      "entityType": "Application",
-      "entityId": "APP-0158",
-      "timestamp": "2026-11-17T19:06:38.418Z"
-    },
-    {
-      "logId": "LOG-8339-TJOH",
-      "userId": "PNL-01",
-      "action": "RECOMMENDATION_CONFIRMED",
-      "entityType": "Interview",
-      "entityId": "INT-031",
-      "timestamp": "2026-11-17T19:06:38.339Z"
-    },
-    {
-      "logId": "LOG-8217-VQ53",
-      "userId": "PNL-01",
-      "action": "EVALUATION_SUBMITTED",
-      "entityType": "Interview",
-      "entityId": "INT-032",
-      "timestamp": "2026-11-17T19:06:38.217Z"
-    },
-    {
-      "logId": "LOG-8075-W3RN",
-      "userId": "A6875XS2",
-      "action": "APPLICATION_SUBMITTED",
-      "entityType": "Application",
-      "entityId": "APP-0108",
-      "timestamp": "2026-11-17T19:06:38.075Z"
-    },
-    {
-      "logId": "LOG-8028-C94P",
-      "userId": "U6875XS2",
-      "action": "DOCUMENT_UPLOADED",
-      "entityType": "Document",
-      "entityId": "DOC-8005-MDXM",
-      "timestamp": "2026-11-17T19:06:38.028Z"
-    },
-    {
-      "logId": "LOG-7749-2EGY",
-      "userId": "U6875XS2",
-      "action": "DOCUMENT_UPLOADED",
-      "entityType": "Document",
-      "entityId": "DOC-7728-XY8X",
-      "timestamp": "2026-11-17T19:06:37.749Z"
-    },
-    {
-      "logId": "LOG-7547-MEZ9",
-      "userId": "U6875XS2",
-      "action": "DOCUMENT_UPLOADED",
-      "entityType": "Document",
-      "entityId": "DOC-7523-UGMA",
-      "timestamp": "2026-11-17T19:06:37.547Z"
-    },
-    {
-      "logId": "LOG-7355-XIVF",
-      "userId": "U6875XS2",
-      "action": "DOCUMENT_UPLOADED",
-      "entityType": "Document",
-      "entityId": "DOC-7337-WPY8",
-      "timestamp": "2026-11-17T19:06:37.355Z"
-    },
-    {
-      "logId": "LOG-7157-GYPA",
-      "userId": "U6875XS2",
-      "action": "DOCUMENT_UPLOADED",
-      "entityType": "Document",
-      "entityId": "DOC-7136-QXR0",
-      "timestamp": "2026-11-17T19:06:37.157Z"
-    },
-    {
-      "logId": "LOG-6947-M15I",
-      "userId": "U6875XS2",
-      "action": "USER_LOGIN",
-      "entityType": "User",
-      "entityId": "U6875XS2",
-      "timestamp": "2026-11-17T19:06:36.947Z"
-    },
-    {
-      "logId": "LOG-6927-7J0V",
-      "userId": "U6875XS2",
-      "action": "APPLICANT_REGISTERED",
-      "entityType": "User",
-      "entityId": "U6875XS2",
-      "timestamp": "2026-11-17T19:06:36.927Z"
-    },
-    {
-      "logId": "LOG-6733-R8YK",
-      "userId": "U6188U3Y",
-      "action": "DOCUMENT_UPLOADED",
-      "entityType": "Document",
-      "entityId": "DOC-6702-S4FP",
-      "timestamp": "2026-11-17T19:06:36.733Z"
-    },
-    {
-      "logId": "LOG-6260-O8RT",
-      "userId": "U6188U3Y",
-      "action": "USER_LOGIN",
-      "entityType": "User",
-      "entityId": "U6188U3Y",
-      "timestamp": "2026-11-17T19:06:36.260Z"
-    },
-    {
-      "logId": "LOG-6244-UESO",
-      "userId": "U6188U3Y",
-      "action": "APPLICANT_REGISTERED",
-      "entityType": "User",
-      "entityId": "U6188U3Y",
-      "timestamp": "2026-11-17T19:06:36.244Z"
-    },
-    {
-      "logId": "LOG-6032-P7GF",
-      "userId": "A4578QBV",
-      "action": "APPLICATION_SUBMITTED",
-      "entityType": "Application",
-      "entityId": "APP-0106",
-      "timestamp": "2026-11-17T19:06:36.032Z"
-    },
-    {
-      "logId": "LOG-5970-709L",
-      "userId": "U4578QBV",
-      "action": "DOCUMENT_UPLOADED",
-      "entityType": "Document",
-      "entityId": "DOC-5951-V7RN",
-      "timestamp": "2026-11-17T19:06:35.970Z"
-    },
-    {
-      "logId": "LOG-5768-36N3",
-      "userId": "U4578QBV",
-      "action": "DOCUMENT_UPLOADED",
-      "entityType": "Document",
-      "entityId": "DOC-5748-IZ1S",
-      "timestamp": "2026-11-17T19:06:35.768Z"
-    },
-    {
-      "logId": "LOG-5569-K52Q",
-      "userId": "U4578QBV",
-      "action": "DOCUMENT_UPLOADED",
-      "entityType": "Document",
-      "entityId": "DOC-5548-N7KJ",
-      "timestamp": "2026-11-17T19:06:35.569Z"
-    },
-    {
-      "logId": "LOG-5286-WJTZ",
-      "userId": "U4578QBV",
-      "action": "DOCUMENT_UPLOADED",
-      "entityType": "Document",
-      "entityId": "DOC-5260-0UXE",
-      "timestamp": "2026-11-17T19:06:35.286Z"
-    },
-    {
-      "logId": "LOG-5048-3V93",
-      "userId": "U4578QBV",
-      "action": "DOCUMENT_UPLOADED",
-      "entityType": "Document",
-      "entityId": "DOC-5022-U2WE",
-      "timestamp": "2026-11-17T19:06:35.048Z"
-    },
-    {
-      "logId": "LOG-4662-5HD8",
-      "userId": "U4578QBV",
-      "action": "USER_LOGIN",
-      "entityType": "User",
-      "entityId": "U4578QBV",
-      "timestamp": "2026-11-17T19:06:34.662Z"
-    },
-    {
-      "logId": "LOG-4642-1VIR",
-      "userId": "U4578QBV",
-      "action": "APPLICANT_REGISTERED",
-      "entityType": "User",
-      "entityId": "U4578QBV",
-      "timestamp": "2026-11-17T19:06:34.643Z"
-    },
-    {
-      "logId": "LOG-4428-QA65",
-      "userId": "U4365GML",
-      "action": "USER_LOGIN",
-      "entityType": "User",
-      "entityId": "U4365GML",
-      "timestamp": "2026-11-17T19:06:34.428Z"
-    },
-    {
-      "logId": "LOG-4410-X0GT",
-      "userId": "U4365GML",
-      "action": "APPLICANT_REGISTERED",
-      "entityType": "User",
-      "entityId": "U4365GML",
-      "timestamp": "2026-11-17T19:06:34.410Z"
-    },
-    {
-      "logId": "LOG-4241-6BHO",
-      "userId": "U001",
-      "action": "USER_LOGIN",
-      "entityType": "User",
-      "entityId": "U001",
-      "timestamp": "2026-11-17T19:06:34.241Z"
-    },
-    {
-      "logId": "LOG-4117-0KW9",
-      "userId": "U008",
-      "action": "USER_LOGIN",
-      "entityType": "User",
-      "entityId": "U008",
-      "timestamp": "2026-11-17T19:06:34.117Z"
-    },
-    {
-      "logId": "LOG-3988-L92Y",
-      "userId": "U007",
-      "action": "USER_LOGIN",
-      "entityType": "User",
-      "entityId": "U007",
-      "timestamp": "2026-11-17T19:06:33.988Z"
-    },
-    {
-      "logId": "LOG-3855-OOP0",
+      "logId": "LOG-8716-L8MS",
       "userId": "U102",
       "action": "USER_LOGIN",
       "entityType": "User",
       "entityId": "U102",
-      "timestamp": "2026-11-17T19:06:33.855Z"
+      "timestamp": "2026-11-17T19:28:58.716Z"
+    },
+    {
+      "logId": "LOG-8722-18HK",
+      "userId": "U007",
+      "action": "USER_LOGOUT",
+      "entityType": "User",
+      "entityId": "U007",
+      "timestamp": "2026-11-17T19:28:48.722Z"
+    },
+    {
+      "logId": "LOG-5603-J07B",
+      "userId": "U007",
+      "action": "USER_LOGIN",
+      "entityType": "User",
+      "entityId": "U007",
+      "timestamp": "2026-11-17T19:28:35.603Z"
     },
     {
       "logId": "LOG-001",
@@ -1375,79 +850,13 @@
   ],
   "sessions": [
     {
-      "sessionId": "SES-3835-S25G",
-      "token": "7543859e89471ac1669c4965e8445d8f21725fcd5d0421730e32a065d2ee6d84",
+      "sessionId": "SES-8695-CV3Z",
+      "token": "800f135f19ec9083a100e9fdb7485cc669f25302c5006994a6f9271423ea3a46",
       "userId": "U102",
       "role": "APPLICANT",
       "applicantId": "A102",
-      "createdAt": "2026-11-17T19:06:33.836Z",
-      "expiresAt": "2026-11-18T07:06:33.835Z"
-    },
-    {
-      "sessionId": "SES-3972-023X",
-      "token": "a48f9de5313c29a0d8bd7331753af560950eaddf5e52fcf56b0686bc11e4d36e",
-      "userId": "U007",
-      "role": "RECRUITMENT_CELL",
-      "employeeId": "RC-07",
-      "department": "Recruitment Cell",
-      "createdAt": "2026-11-17T19:06:33.972Z",
-      "expiresAt": "2026-11-18T07:06:33.972Z"
-    },
-    {
-      "sessionId": "SES-4098-EZXB",
-      "token": "786078a2c74bf3d081cc4f5166144d70ba43ad4d176efe51847ab44a4cd8b259",
-      "userId": "U008",
-      "role": "INTERVIEW_PANEL",
-      "memberId": "PNL-01",
-      "department": "Computer Science",
-      "createdAt": "2026-11-17T19:06:34.098Z",
-      "expiresAt": "2026-11-18T07:06:34.098Z"
-    },
-    {
-      "sessionId": "SES-4226-24IN",
-      "token": "ac36f596c7387c0e584d00572c16668dea5a620d6a2efaec9e75cb09a8ae8312",
-      "userId": "U001",
-      "role": "HOD",
-      "hodId": "HOD-CSE-01",
-      "department": "Computer Science",
-      "createdAt": "2026-11-17T19:06:34.226Z",
-      "expiresAt": "2026-11-18T07:06:34.226Z"
-    },
-    {
-      "sessionId": "SES-4397-E4KF",
-      "token": "3ba0a28c71ff37092b33aaef22623ee7235c1011976a79df0abfbc5e22d55607",
-      "userId": "U4365GML",
-      "role": "APPLICANT",
-      "applicantId": "A4365GML",
-      "createdAt": "2026-11-17T19:06:34.397Z",
-      "expiresAt": "2026-11-18T07:06:34.397Z"
-    },
-    {
-      "sessionId": "SES-4624-Y1FI",
-      "token": "1d5bcc95f272949cd9e8b98a945061d43b3f0bfd887005227ced3e29a4ddea35",
-      "userId": "U4578QBV",
-      "role": "APPLICANT",
-      "applicantId": "A4578QBV",
-      "createdAt": "2026-11-17T19:06:34.624Z",
-      "expiresAt": "2026-11-18T07:06:34.624Z"
-    },
-    {
-      "sessionId": "SES-6225-L2LY",
-      "token": "d7f636ba177deb6dff1e8240d01723031a785085fd890689e9b34f2f98afbce4",
-      "userId": "U6188U3Y",
-      "role": "APPLICANT",
-      "applicantId": "A6188U3Y",
-      "createdAt": "2026-11-17T19:06:36.225Z",
-      "expiresAt": "2026-11-18T07:06:36.225Z"
-    },
-    {
-      "sessionId": "SES-6909-H0O1",
-      "token": "9ca6c8076aeeceed15ab0430fd53a4f6d490bcea8115b1c62ec343acebe1f369",
-      "userId": "U6875XS2",
-      "role": "APPLICANT",
-      "applicantId": "A6875XS2",
-      "createdAt": "2026-11-17T19:06:36.909Z",
-      "expiresAt": "2026-11-18T07:06:36.909Z"
+      "createdAt": "2026-11-17T19:28:58.695Z",
+      "expiresAt": "2026-11-18T07:28:58.695Z"
     }
   ],
   "uploadedFiles": []

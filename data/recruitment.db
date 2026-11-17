@@ -4,7 +4,7 @@
       "user_id": "U102",
       "name": "Rahul Sharma",
       "email": "rahul.sharma@example.com",
-      "password_hash": "87d170f509b2597bb025a7c50d30baaf:ba991ab3bdc70fa813579d4c7474956e76a9a4efc11a0bae128be4385d849ba5e117775fb3eff164ba4f71a76297c58203acf0e8aa897357929ca46d5089e1d1",
+      "password_hash": "9abc2cc98e2969cb7c27f8f28c5bd8a7:d8b3687d59a525bb24912a92ae6726aa35cfa1e1e7dda235b800114a0f96f8214bd65eec8969265f9109b37cf44bddaadbc7616f88dac180e0035f8ea3a1dcae",
       "role": "APPLICANT",
       "active": true,
       "applicant_id": "A102",
@@ -13,14 +13,14 @@
       "hod_id": null,
       "department": null,
       "phone": "9876543210",
-      "created_at": "2026-11-17T19:06:38.547Z",
+      "created_at": "2026-11-17T19:28:58.721Z",
       "updated_at": null
     },
     {
       "user_id": "U103",
       "name": "Priya Mehta",
       "email": "priya.mehta@example.com",
-      "password_hash": "0a4480d83e486db38008b5926101b6c7:7090aaa7b7229c55475e5dd3e485390907ce7a95d27b1402e776f9b8968239baf748398f03d44fad3f031c00506d62dabd38ce582bf1a1f1fec47f0cab8c1fd5",
+      "password_hash": "eca8c03f208b7139ff570f09ca5d7fd3:695cd392b26667697c5e6e172d67af19c20c645e11e3b0a3dd8e93e7d8f3f7ae70b1769f838f3fd6d0229d0a66e39ce4db986f036694c1e67ad8c448b1707616",
       "role": "APPLICANT",
       "active": true,
       "applicant_id": "A103",
@@ -29,14 +29,14 @@
       "hod_id": null,
       "department": null,
       "phone": "9811223344",
-      "created_at": "2026-11-17T19:06:38.548Z",
+      "created_at": "2026-11-17T19:28:58.721Z",
       "updated_at": null
     },
     {
       "user_id": "U104",
       "name": "Arjun Rao",
       "email": "arjun.rao@example.com",
-      "password_hash": "b8cc0d15c20c72bc5b6034d70572a16b:01148910e85af929011e13a012105f176c7af1aa1a0a46d25472999c7cb9b5940aa80261873c2dfeac26d44e72c09289f1a1616589a5d97910436d7498c9d1c4",
+      "password_hash": "3a1a9a396b103dbc9e2d6f4562355b90:49b09d5757c2f53307f2fe2a44f7ddfb91235f30a889bcb6bf6b92baf2cea51d318aac47cebe3f53ddf3a67123c96422738330b643b7b938c6dc1eb6b422c4c9",
       "role": "APPLICANT",
       "active": true,
       "applicant_id": "A104",
@@ -45,14 +45,14 @@
       "hod_id": null,
       "department": null,
       "phone": "9899887766",
-      "created_at": "2026-11-17T19:06:38.548Z",
+      "created_at": "2026-11-17T19:28:58.721Z",
       "updated_at": null
     },
     {
       "user_id": "U007",
       "name": "Anita Verma",
       "email": "anita.verma@lnmiit.ac.in",
-      "password_hash": "91dcc8d7c9fdd47a0cc34d1860a71b9c:d9347c296197de78683b69cad78b4df0529c7a9a41ed4dcd6c0ff35ef77f2d13da48dff5d53c89fe23cec2c5e5048ad2a286fa785ca1261b81922f2ed2749370",
+      "password_hash": "48f3ac1375bc86da820f96088901c5e7:8f492a8bad8df8ec83924f41dd7d77ef9d70c695056347d1e31ee73c906277e579f6d962a1e76acf3d46b33b62d12229e5ffc14a236a0a8ee261aa0d7ecdc647",
       "role": "RECRUITMENT_CELL",
       "active": true,
       "applicant_id": null,
@@ -61,14 +61,14 @@
       "hod_id": null,
       "department": "Recruitment Cell",
       "phone": null,
-      "created_at": "2026-11-17T19:06:38.548Z",
+      "created_at": "2026-11-17T19:28:58.721Z",
       "updated_at": null
     },
     {
       "user_id": "U008",
       "name": "Dr. K. Iyer",
       "email": "k.iyer@lnmiit.ac.in",
-      "password_hash": "6abdd1b3860233d80d129cdcf0e53775:b3d42284fece4b92885764fb415be678b9e5bbbdd182341114a6b5989535f0f643a7578f761f922795d193babf9c6714c1f85b31138a21af9469ede48aab5f34",
+      "password_hash": "e83f854c92044b274fe5d068d2ec3994:4193c5cb08b2a77a46563b38670f0cb758ebb6c93d4def80c7735470718b3c77636520ea692fefc81a1ddce53638a13d0cf63e73ac6bf89aad30035b42bf932c",
       "role": "INTERVIEW_PANEL",
       "active": true,
       "applicant_id": null,
@@ -77,14 +77,14 @@
       "hod_id": null,
       "department": "Computer Science",
       "phone": null,
-      "created_at": "2026-11-17T19:06:38.548Z",
+      "created_at": "2026-11-17T19:28:58.721Z",
       "updated_at": null
     },
     {
       "user_id": "U009",
       "name": "Dr. S. Bansal",
       "email": "s.bansal@lnmiit.ac.in",
-      "password_hash": "82d01775c0e1c96d39e65b43c733a8cf:c78ea1384fcdafce897ce555f90dcd425cfb51b254842cc552863da004836c000a24a503bacb1bb7fa2d45c007306d014cff69725c46a1412a28e4dd51ba91a5",
+      "password_hash": "5d6866fc5a05a6f9010e242a86de265c:d249c804e40bc79c89e937fa531d8a714e7695005a8e5ccc90ab8d0d30d4c733709966f83945a3616e28daaaac6d43efe2a60e3dc79da62b64641c84731d57ab",
       "role": "INTERVIEW_PANEL",
       "active": true,
       "applicant_id": null,
@@ -93,14 +93,14 @@
       "hod_id": null,
       "department": "Computer Science",
       "phone": null,
-      "created_at": "2026-11-17T19:06:38.548Z",
+      "created_at": "2026-11-17T19:28:58.721Z",
       "updated_at": null
     },
     {
       "user_id": "U010",
       "name": "Dr. M. Rao",
       "email": "m.rao@lnmiit.ac.in",
-      "password_hash": "b1535c52880275ddc18deee614815fce:400fbba322d9d4bf048fee5f1b2394b916cf4561468100910fe8abaee9d38d90f18fefe19a6df3a716c89399c5de55179fd6f2f0d6467b9b0df4ce757ea8a9bf",
+      "password_hash": "0eba653ad6b0f679a0c90d16f5db82d2:70030d941d2af6b5bf9eddaefc394486ee02145228b9b59a2bc025ec1f0a9ec0ee96692736c59a2e4c1f6b6910c98354a6ad83ff9bd54157efedaf3adb5df4c9",
       "role": "INTERVIEW_PANEL",
       "active": true,
       "applicant_id": null,
@@ -109,14 +109,14 @@
       "hod_id": null,
       "department": "Computer Science",
       "phone": null,
-      "created_at": "2026-11-17T19:06:38.548Z",
+      "created_at": "2026-11-17T19:28:58.721Z",
       "updated_at": null
     },
     {
       "user_id": "U001",
       "name": "Prof. P. K. Biswas",
       "email": "hod.cse@lnmiit.ac.in",
-      "password_hash": "0c62e5d0397da7198539765375383cc1:931cd30083e7c221450a57553175e24682b0ec9fa34ee7fe6ca6eb183aea96d3e1f00bf8eddfa359a7a340d7f695ed6d6c40e3c694c03ad3f3cc8abec36d8861",
+      "password_hash": "57634bf30d6ade4dab656b2566206867:349df709823008488ed93579120f5008b7a3e994ea2b1d11848f1de1b74c0d35b71d05f80f831c91eaf236e034ca202824d9f1d1090e92606f385d08895e9e59",
       "role": "HOD",
       "active": true,
       "applicant_id": null,
@@ -125,14 +125,14 @@
       "hod_id": "HOD-CSE-01",
       "department": "Computer Science",
       "phone": null,
-      "created_at": "2026-11-17T19:06:38.548Z",
+      "created_at": "2026-11-17T19:28:58.721Z",
       "updated_at": null
     },
     {
       "user_id": "U000",
       "name": "System Administrator",
       "email": "admin@lnmiit.ac.in",
-      "password_hash": "4c9737be4747a9cd1b6dcbfc755663c5:66baeebfc967aad4ad1480e7b5727f8a3ec3838c584c56451c0fe70d1fdffa6cae31b93f9040e3a241e922c9c1090a85bf7c8ce20f9c10fc77467ec227928765",
+      "password_hash": "46efe766ede907a4db39747c667b5e6b:05deb32ac650d980afa8fc9892257ccbe3979ad21302dab633a7732ea6a334ec198aa8c9ed86a71c7384388f8638cd6890543e3d3781638112cc11b005ef6d6e",
       "role": "ADMINISTRATOR",
       "active": true,
       "applicant_id": null,
@@ -141,7 +141,7 @@
       "hod_id": null,
       "department": null,
       "phone": null,
-      "created_at": "2026-11-17T19:06:38.548Z",
+      "created_at": "2026-11-17T19:28:58.721Z",
       "updated_at": null
     },
     {
@@ -509,7 +509,7 @@
       "hod_id": null,
       "department": null,
       "phone": null,
-      "created_at": "2026-11-17T19:06:38.548Z",
+      "created_at": "2026-11-17T19:28:08.745Z",
       "updated_at": null
     },
     {
@@ -525,7 +525,7 @@
       "hod_id": null,
       "department": null,
       "phone": null,
-      "created_at": "2026-11-17T19:06:38.548Z",
+      "created_at": "2026-11-17T19:28:08.745Z",
       "updated_at": null
     },
     {
@@ -541,7 +541,7 @@
       "hod_id": null,
       "department": null,
       "phone": null,
-      "created_at": "2026-11-17T19:06:38.548Z",
+      "created_at": "2026-11-17T19:28:08.745Z",
       "updated_at": null
     },
     {
@@ -557,7 +557,39 @@
       "hod_id": null,
       "department": null,
       "phone": null,
-      "created_at": "2026-11-17T19:06:38.548Z",
+      "created_at": "2026-11-17T19:28:08.745Z",
+      "updated_at": null
+    },
+    {
+      "user_id": "U5637N7S",
+      "name": "Maheshwar",
+      "email": "singhmahheshwar@gmail.com",
+      "password_hash": "3792c593ab5c635f99dbb216401cc78b:0ad28022d79cfe2ee4e6f706c0ea3767abe3fce88a748475284a486a5fcc0abfd16a10d2c06327b5d1375d2c51ad278de2a7e3e73cfe53dd951c22eae97f219e",
+      "role": "APPLICANT",
+      "active": true,
+      "applicant_id": "A5637N7S",
+      "employee_id": null,
+      "member_id": null,
+      "hod_id": null,
+      "department": null,
+      "phone": "7796054985",
+      "created_at": "2026-11-17T19:28:08.745Z",
+      "updated_at": null
+    },
+    {
+      "user_id": "U26892D2",
+      "name": "Rachit Poddar",
+      "email": "24ucs176@lnmiit.ac.in",
+      "password_hash": "a1f1dcaa729dd22a4457b6d1362423a7:d8f3f49886db3fca177157e45863a1b6a84a316c332bb204a18ffc0525057b2f0c2c60e7584103fc4f3653821b5fd000f212f546b498c34676864cb0aa5ec41e",
+      "role": "APPLICANT",
+      "active": true,
+      "applicant_id": "A26892D2",
+      "employee_id": null,
+      "member_id": null,
+      "hod_id": null,
+      "department": null,
+      "phone": null,
+      "created_at": "2026-11-17T19:28:08.745Z",
       "updated_at": null
     }
   ],
@@ -1783,6 +1815,149 @@
       "department": null,
       "created_at": "2026-11-17T19:06:36.909Z",
       "expires_at": "2026-11-18T07:06:36.909Z"
+    },
+    {
+      "session_id": "SES-5680-HWJI",
+      "token": "4fe79fb7a0196fd2dc2ffd054a019ffa8a972bc748abf9f651cf7d3ba0b754ac",
+      "user_id": "U5637N7S",
+      "role": "APPLICANT",
+      "applicant_id": "A5637N7S",
+      "employee_id": null,
+      "member_id": null,
+      "hod_id": null,
+      "department": null,
+      "created_at": "2026-11-17T19:23:45.680Z",
+      "expires_at": "2026-11-18T07:23:45.680Z"
+    },
+    {
+      "session_id": "SES-8876-TIFF",
+      "token": "cf501ce710621ed4a398cab8542d5db71db653b7048aa3c475837f81f699e414",
+      "user_id": "U000",
+      "role": "ADMINISTRATOR",
+      "applicant_id": null,
+      "employee_id": null,
+      "member_id": null,
+      "hod_id": null,
+      "department": null,
+      "created_at": "2026-11-17T19:24:08.876Z",
+      "expires_at": "2026-11-18T07:24:08.876Z"
+    },
+    {
+      "session_id": "SES-5270-5K4E",
+      "token": "bf0f5f2e9c4ea71ce2cf7bcade544bbc0651dcc1cebf2e51c71805a15f6155fa",
+      "user_id": "U102",
+      "role": "APPLICANT",
+      "applicant_id": "A102",
+      "employee_id": null,
+      "member_id": null,
+      "hod_id": null,
+      "department": null,
+      "created_at": "2026-11-17T19:24:15.270Z",
+      "expires_at": "2026-11-18T07:24:15.270Z"
+    },
+    {
+      "session_id": "SES-2734-7K9X",
+      "token": "787a5da2ea3eef2d35bbaceb6caed3963d262ccdeb2a5a9d240bc969dc00d48c",
+      "user_id": "U26892D2",
+      "role": "APPLICANT",
+      "applicant_id": "A26892D2",
+      "employee_id": null,
+      "member_id": null,
+      "hod_id": null,
+      "department": null,
+      "created_at": "2026-11-17T19:25:02.734Z",
+      "expires_at": "2026-11-18T07:25:02.734Z"
+    },
+    {
+      "session_id": "SES-9820-QJ9F",
+      "token": "43435432922af340b386d570d01c710d6fff3818a13526f400d153e16919cb00",
+      "user_id": "U007",
+      "role": "RECRUITMENT_CELL",
+      "applicant_id": null,
+      "employee_id": "RC-07",
+      "member_id": null,
+      "hod_id": null,
+      "department": "Recruitment Cell",
+      "created_at": "2026-11-17T19:27:59.820Z",
+      "expires_at": "2026-11-18T07:27:59.820Z"
+    },
+    {
+      "session_id": "SES-1438-JY16",
+      "token": "bfa02c3d49775d8ef2c7232eebf5cfb97c2f9a46412524ebe85594ff36871684",
+      "user_id": "U102",
+      "role": "APPLICANT",
+      "applicant_id": "A102",
+      "employee_id": null,
+      "member_id": null,
+      "hod_id": null,
+      "department": null,
+      "created_at": "2026-11-17T19:28:01.438Z",
+      "expires_at": "2026-11-18T07:28:01.438Z"
+    },
+    {
+      "session_id": "SES-7057-DHKS",
+      "token": "d5b224ccdb9c8b6da18a7def24f14f65b954799a1a5314f8963306e0d4142119",
+      "user_id": "U007",
+      "role": "RECRUITMENT_CELL",
+      "applicant_id": null,
+      "employee_id": "RC-07",
+      "member_id": null,
+      "hod_id": null,
+      "department": "Recruitment Cell",
+      "created_at": "2026-11-17T19:28:07.057Z",
+      "expires_at": "2026-11-18T07:28:07.057Z"
+    },
+    {
+      "session_id": "SES-8717-A1UX",
+      "token": "bcbb9c162500ed0d05c1df149ecc54b7bc3c1d8e209d569b580d901f5562adc9",
+      "user_id": "U008",
+      "role": "INTERVIEW_PANEL",
+      "applicant_id": null,
+      "employee_id": null,
+      "member_id": "PNL-01",
+      "hod_id": null,
+      "department": "Computer Science",
+      "created_at": "2026-11-17T19:28:08.717Z",
+      "expires_at": "2026-11-18T07:28:08.717Z"
+    },
+    {
+      "session_id": "SES-3654-NQJ3",
+      "token": "c1b04c8453fa78ec44561048ae6239c1581574215ccfc931ede49e07a805012e",
+      "user_id": "U102",
+      "role": "APPLICANT",
+      "applicant_id": "A102",
+      "employee_id": null,
+      "member_id": null,
+      "hod_id": null,
+      "department": null,
+      "created_at": "2026-11-17T19:28:23.654Z",
+      "expires_at": "2026-11-18T07:28:23.654Z"
+    },
+    {
+      "session_id": "SES-5582-COH2",
+      "token": "5c45d5e8ea963b001908b8c7b6164cb006c9e00811a190ab23c58d4643b4f465",
+      "user_id": "U007",
+      "role": "RECRUITMENT_CELL",
+      "applicant_id": null,
+      "employee_id": "RC-07",
+      "member_id": null,
+      "hod_id": null,
+      "department": "Recruitment Cell",
+      "created_at": "2026-11-17T19:28:35.582Z",
+      "expires_at": "2026-11-18T07:28:35.582Z"
+    },
+    {
+      "session_id": "SES-8695-CV3Z",
+      "token": "800f135f19ec9083a100e9fdb7485cc669f25302c5006994a6f9271423ea3a46",
+      "user_id": "U102",
+      "role": "APPLICANT",
+      "applicant_id": "A102",
+      "employee_id": null,
+      "member_id": null,
+      "hod_id": null,
+      "department": null,
+      "created_at": "2026-11-17T19:28:58.695Z",
+      "expires_at": "2026-11-18T07:28:58.695Z"
     }
   ],
   "applicant_profiles": [
@@ -2407,6 +2582,50 @@
       "applicant_id": "A6875XS2",
       "user_id": null,
       "date_of_birth": null,
+      "phone": null,
+      "willingness_to_relocate": true,
+      "has_disability": false,
+      "disability_type": null,
+      "current_plot_building": null,
+      "current_locality": null,
+      "current_city": null,
+      "current_state": null,
+      "current_pincode": null,
+      "permanent_plot_building": null,
+      "permanent_locality": null,
+      "permanent_city": null,
+      "permanent_state": null,
+      "permanent_pincode": null,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "profile_id": "P5637N7S",
+      "applicant_id": "A5637N7S",
+      "user_id": null,
+      "date_of_birth": null,
+      "phone": "7796054985",
+      "willingness_to_relocate": true,
+      "has_disability": false,
+      "disability_type": null,
+      "current_plot_building": null,
+      "current_locality": null,
+      "current_city": null,
+      "current_state": null,
+      "current_pincode": null,
+      "permanent_plot_building": null,
+      "permanent_locality": null,
+      "permanent_city": null,
+      "permanent_state": null,
+      "permanent_pincode": null,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "profile_id": "P26892D2",
+      "applicant_id": "A26892D2",
+      "user_id": null,
+      "date_of_birth": "1995-04-12",
       "phone": null,
       "willingness_to_relocate": true,
       "has_disability": false,
@@ -8292,6 +8511,622 @@
       "title": "Congestion Avoidance Framework for Edge Computing Nodes",
       "year_of_publication": 2024,
       "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-l3aqq",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-szpfu",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-q9ffr",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-0fdbl",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-wo8n9",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-nx8nc",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-5eum9",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-phxr5",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-gvzg8",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-tu772",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-ngh4m",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-ujy3s",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-98gci",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-5h3ac",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-n54cl",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-t2n29",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-cvxk9",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-eow0v",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-qmnpo",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-825fp",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-pdzur",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-hkqfl",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-0m1my",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-t1qsx",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-xiy1z",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-57bq7",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-svmki",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-dtujt",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-4q3if",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-6wrce",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-dfbat",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-37vro",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-79ljn",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-bpoy7",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-6oy9v",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-ie86l",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-8v55d",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-w831k",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-2h0xw",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-tmb2m",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-6vjb0",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-7bpvh",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-wvebt",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-xlf9e",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-z1jmi",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-1yoj8",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-u4rrf",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-zi3p8",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-0c2q1",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-jqxox",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-db860",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-0zq6u",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-lspo2",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-qs1g7",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-7stta",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-q6ki9",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-4x9t9",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-6nzm0",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-r1an3",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-5st6v",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-up7xn",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-rwsd4",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-6hccn",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-21yda",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-1sxgy",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-1vpkz",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-uh4zx",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-l9r7o",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-ax7f2",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-a4jol",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-h8r9d",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-m03v7",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-xthxc",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-9j3cl",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-vr2sy",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-lgtfl",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-101ff",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-or5r3",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-yhv46",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-dfxam",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-bg0nc",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-yq52q",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-p77mr",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-77my6",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-rk8j6",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-3uqf9",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
+    },
+    {
+      "paper_id": "PUB-o1gqd",
+      "applicant_id": "A102",
+      "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+      "year_of_publication": 2023,
+      "journal_or_conference": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "paper_id": "PUB-362kj",
+      "applicant_id": "A102",
+      "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+      "year_of_publication": 2024,
+      "journal_or_conference": "Elsevier Computer Networks"
     }
   ],
   "vacancies": [
@@ -8419,7 +9254,7 @@
       "vacancy_id": "FAC-CS-2026-01",
       "application_date": "2026-09-10",
       "submission_date": "2026-09-10T14:31:55+05:30",
-      "status": "APPOINTED",
+      "status": "ELIGIBLE",
       "highest_degree": "M.Tech",
       "total_experience": 3,
       "interview_id": "INT-031",
@@ -8541,6 +9376,21 @@
       "submission_date": null,
       "status": "INTERVIEW_COMPLETED",
       "highest_degree": null,
+      "total_experience": 0,
+      "interview_id": null,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "application_id": "APP-0109",
+      "applicant_id": "A26892D2",
+      "applicant_name": "Rachit Poddar",
+      "applicant_email": "24ucs176@lnmiit.ac.in",
+      "vacancy_id": "FAC-EC-2026-03",
+      "application_date": "2026-11-17",
+      "submission_date": null,
+      "status": "DRAFT",
+      "highest_degree": "M.Tech",
       "total_experience": 0,
       "interview_id": null,
       "created_at": null,
@@ -9229,11 +10079,11 @@
       "candidate_name": "Rahul Sharma",
       "interview_date": "2026-09-25",
       "interview_time": "10:00",
-      "status": "COMPLETED",
+      "status": "VALIDATED",
       "aggregate_score": 8,
       "recommendation": "RECOMMENDED",
-      "panel_remarks": "Highly recommended for Assistant Professor in Computer Science",
-      "finalized": true,
+      "panel_remarks": "Recommended unanimously by the CSE interview panel for Assistant Professor position.",
+      "finalized": false,
       "created_at": null
     },
     {
@@ -9404,9 +10254,9 @@
       "interview_id": "INT-032",
       "member_id": "PNL-01",
       "member_name": "Dr. K. Iyer",
-      "score": 8.5,
-      "comments": "Solid grasp of data structures and distributed computing systems.",
-      "evaluation_date": "2026-11-17T19:06:38.193Z"
+      "score": 8,
+      "comments": "Excellent command over cloud computing and microservices architecture.",
+      "evaluation_date": "2026-09-25T11:50:00+05:30"
     }
   ],
   "hod_reviews": [
@@ -11197,6 +12047,126 @@
       "entity_type": "Application",
       "entity_id": "APP-0158",
       "timestamp": "2026-11-17T19:06:38.522Z"
+    },
+    {
+      "log_id": "LOG-5700-3F0Q",
+      "user_id": "U5637N7S",
+      "action": "APPLICANT_REGISTERED",
+      "entity_type": "User",
+      "entity_id": "U5637N7S",
+      "timestamp": "2026-11-17T19:23:45.700Z"
+    },
+    {
+      "log_id": "LOG-5720-66MO",
+      "user_id": "U5637N7S",
+      "action": "USER_LOGIN",
+      "entity_type": "User",
+      "entity_id": "U5637N7S",
+      "timestamp": "2026-11-17T19:23:45.720Z"
+    },
+    {
+      "log_id": "LOG-8895-YX2W",
+      "user_id": "U000",
+      "action": "USER_LOGIN",
+      "entity_type": "User",
+      "entity_id": "U000",
+      "timestamp": "2026-11-17T19:24:08.895Z"
+    },
+    {
+      "log_id": "LOG-5290-2AJH",
+      "user_id": "U102",
+      "action": "USER_LOGIN",
+      "entity_type": "User",
+      "entity_id": "U102",
+      "timestamp": "2026-11-17T19:24:15.290Z"
+    },
+    {
+      "log_id": "LOG-6623-ULWX",
+      "user_id": "U102",
+      "action": "USER_LOGOUT",
+      "entity_type": "User",
+      "entity_id": "U102",
+      "timestamp": "2026-11-17T19:24:26.624Z"
+    },
+    {
+      "log_id": "LOG-2755-PZD9",
+      "user_id": "U26892D2",
+      "action": "APPLICANT_REGISTERED",
+      "entity_type": "User",
+      "entity_id": "U26892D2",
+      "timestamp": "2026-11-17T19:25:02.755Z"
+    },
+    {
+      "log_id": "LOG-2777-SF45",
+      "user_id": "U26892D2",
+      "action": "USER_LOGIN",
+      "entity_type": "User",
+      "entity_id": "U26892D2",
+      "timestamp": "2026-11-17T19:25:02.777Z"
+    },
+    {
+      "log_id": "LOG-9847-5SVG",
+      "user_id": "U007",
+      "action": "USER_LOGIN",
+      "entity_type": "User",
+      "entity_id": "U007",
+      "timestamp": "2026-11-17T19:27:59.847Z"
+    },
+    {
+      "log_id": "LOG-1458-WU76",
+      "user_id": "U102",
+      "action": "USER_LOGIN",
+      "entity_type": "User",
+      "entity_id": "U102",
+      "timestamp": "2026-11-17T19:28:01.458Z"
+    },
+    {
+      "log_id": "LOG-7077-WRAG",
+      "user_id": "U007",
+      "action": "USER_LOGIN",
+      "entity_type": "User",
+      "entity_id": "U007",
+      "timestamp": "2026-11-17T19:28:07.077Z"
+    },
+    {
+      "log_id": "LOG-8739-B8RW",
+      "user_id": "U008",
+      "action": "USER_LOGIN",
+      "entity_type": "User",
+      "entity_id": "U008",
+      "timestamp": "2026-11-17T19:28:08.739Z"
+    },
+    {
+      "log_id": "LOG-3675-BZDJ",
+      "user_id": "U102",
+      "action": "USER_LOGIN",
+      "entity_type": "User",
+      "entity_id": "U102",
+      "timestamp": "2026-11-17T19:28:23.675Z"
+    },
+    {
+      "log_id": "LOG-5603-J07B",
+      "user_id": "U007",
+      "action": "USER_LOGIN",
+      "entity_type": "User",
+      "entity_id": "U007",
+      "timestamp": "2026-11-17T19:28:35.603Z"
+    },
+    {
+      "log_id": "LOG-8722-18HK",
+      "user_id": "U007",
+      "action": "USER_LOGOUT",
+      "entity_type": "User",
+      "entity_id": "U007",
+      "timestamp": "2026-11-17T19:28:48.722Z"
+    },
+    {
+      "log_id": "LOG-8716-L8MS",
+      "user_id": "U102",
+      "action": "USER_LOGIN",
+      "entity_type": "User",
+      "entity_id": "U102",
+      "timestamp": "2026-11-17T19:28:58.716Z"
     }
   ]
 }
