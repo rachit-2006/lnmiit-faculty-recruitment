@@ -1,0 +1,1454 @@
+{
+  "users": [
+    {
+      "userId": "U102",
+      "name": "Rahul Sharma",
+      "email": "rahul.sharma@example.com",
+      "passwordHash": "87d170f509b2597bb025a7c50d30baaf:ba991ab3bdc70fa813579d4c7474956e76a9a4efc11a0bae128be4385d849ba5e117775fb3eff164ba4f71a76297c58203acf0e8aa897357929ca46d5089e1d1",
+      "role": "APPLICANT",
+      "active": true,
+      "applicantId": "A102",
+      "phone": "9876543210"
+    },
+    {
+      "userId": "U103",
+      "name": "Priya Mehta",
+      "email": "priya.mehta@example.com",
+      "passwordHash": "0a4480d83e486db38008b5926101b6c7:7090aaa7b7229c55475e5dd3e485390907ce7a95d27b1402e776f9b8968239baf748398f03d44fad3f031c00506d62dabd38ce582bf1a1f1fec47f0cab8c1fd5",
+      "role": "APPLICANT",
+      "active": true,
+      "applicantId": "A103",
+      "phone": "9811223344"
+    },
+    {
+      "userId": "U104",
+      "name": "Arjun Rao",
+      "email": "arjun.rao@example.com",
+      "passwordHash": "b8cc0d15c20c72bc5b6034d70572a16b:01148910e85af929011e13a012105f176c7af1aa1a0a46d25472999c7cb9b5940aa80261873c2dfeac26d44e72c09289f1a1616589a5d97910436d7498c9d1c4",
+      "role": "APPLICANT",
+      "active": true,
+      "applicantId": "A104",
+      "phone": "9899887766"
+    },
+    {
+      "userId": "U007",
+      "name": "Anita Verma",
+      "email": "anita.verma@lnmiit.ac.in",
+      "passwordHash": "91dcc8d7c9fdd47a0cc34d1860a71b9c:d9347c296197de78683b69cad78b4df0529c7a9a41ed4dcd6c0ff35ef77f2d13da48dff5d53c89fe23cec2c5e5048ad2a286fa785ca1261b81922f2ed2749370",
+      "role": "RECRUITMENT_CELL",
+      "active": true,
+      "employeeId": "RC-07",
+      "department": "Recruitment Cell"
+    },
+    {
+      "userId": "U008",
+      "name": "Dr. K. Iyer",
+      "email": "k.iyer@lnmiit.ac.in",
+      "passwordHash": "6abdd1b3860233d80d129cdcf0e53775:b3d42284fece4b92885764fb415be678b9e5bbbdd182341114a6b5989535f0f643a7578f761f922795d193babf9c6714c1f85b31138a21af9469ede48aab5f34",
+      "role": "INTERVIEW_PANEL",
+      "active": true,
+      "memberId": "PNL-01",
+      "designation": "Associate Professor",
+      "department": "Computer Science"
+    },
+    {
+      "userId": "U009",
+      "name": "Dr. S. Bansal",
+      "email": "s.bansal@lnmiit.ac.in",
+      "passwordHash": "82d01775c0e1c96d39e65b43c733a8cf:c78ea1384fcdafce897ce555f90dcd425cfb51b254842cc552863da004836c000a24a503bacb1bb7fa2d45c007306d014cff69725c46a1412a28e4dd51ba91a5",
+      "role": "INTERVIEW_PANEL",
+      "active": true,
+      "memberId": "PNL-02",
+      "designation": "Professor",
+      "department": "Computer Science"
+    },
+    {
+      "userId": "U010",
+      "name": "Dr. M. Rao",
+      "email": "m.rao@lnmiit.ac.in",
+      "passwordHash": "b1535c52880275ddc18deee614815fce:400fbba322d9d4bf048fee5f1b2394b916cf4561468100910fe8abaee9d38d90f18fefe19a6df3a716c89399c5de55179fd6f2f0d6467b9b0df4ce757ea8a9bf",
+      "role": "INTERVIEW_PANEL",
+      "active": true,
+      "memberId": "PNL-03",
+      "designation": "Associate Professor",
+      "department": "Computer Science"
+    },
+    {
+      "userId": "U001",
+      "name": "Prof. P. K. Biswas",
+      "email": "hod.cse@lnmiit.ac.in",
+      "passwordHash": "0c62e5d0397da7198539765375383cc1:931cd30083e7c221450a57553175e24682b0ec9fa34ee7fe6ca6eb183aea96d3e1f00bf8eddfa359a7a340d7f695ed6d6c40e3c694c03ad3f3cc8abec36d8861",
+      "role": "HOD",
+      "active": true,
+      "hodId": "HOD-CSE-01",
+      "department": "Computer Science"
+    },
+    {
+      "userId": "U000",
+      "name": "System Administrator",
+      "email": "admin@lnmiit.ac.in",
+      "passwordHash": "4c9737be4747a9cd1b6dcbfc755663c5:66baeebfc967aad4ad1480e7b5727f8a3ec3838c584c56451c0fe70d1fdffa6cae31b93f9040e3a241e922c9c1090a85bf7c8ce20f9c10fc77467ec227928765",
+      "role": "ADMINISTRATOR",
+      "active": true
+    },
+    {
+      "userId": "U4365GML",
+      "name": "Dr. New Applicant",
+      "email": "workflow_cand_1794942394259@example.com",
+      "passwordHash": "560463c9325c3d65049df4f1a610296f:5ebc8313fe85427bb4840cd06f13b2b4a43708f9ca72d449a9fa0e216757642e479ec17a700ebfa90dfd186404ece53fae0616ac89effd3ed3b56cd2318b108e",
+      "role": "APPLICANT",
+      "active": true,
+      "applicantId": "A4365GML",
+      "phone": ""
+    },
+    {
+      "userId": "U4578QBV",
+      "name": "Dr. Dupe Candidate",
+      "email": "dupe_cand_1794942394477@example.com",
+      "passwordHash": "557bc94b737186adac076afe294696bb:8b15c7ff4cc9fe1af04f5b6d3814f2ac2fc7d562bb41d859bb496cec1ffeaaf6d47fbb87dcad5e2f136893f838a6655a6589e6f3a05215eadccc92bb3def26c0",
+      "role": "APPLICANT",
+      "active": true,
+      "applicantId": "A4578QBV",
+      "phone": ""
+    },
+    {
+      "userId": "U6188U3Y",
+      "name": "Dr. Doc Tester",
+      "email": "doc_cand_1794942396079@example.com",
+      "passwordHash": "c6c510a1f63d152a38e7dfa850a41bcb:4aa805391cfcee6d7825aeb2fd6aa0d3b37fef982502c63ea7512f60d7c68e060b330dc8517a4fc026ea74920889d710ec26a23632902c61864e94836f11e888",
+      "role": "APPLICANT",
+      "active": true,
+      "applicantId": "A6188U3Y",
+      "phone": ""
+    },
+    {
+      "userId": "U6875XS2",
+      "name": "Dr. Submit Tester",
+      "email": "sub_cand_1794942396772@example.com",
+      "passwordHash": "9b6d5300d2c3058eb846e2c154a61a90:e7ee3b1449b0f047ae165cb6b5b5b0756017244fe9e55f04ccb6581c23b026801bfc66edc4f09b8990c83e776f9829f0ca0af145df5d26e742ba8ea1a41e1803",
+      "role": "APPLICANT",
+      "active": true,
+      "applicantId": "A6875XS2",
+      "phone": ""
+    }
+  ],
+  "applicantProfiles": {
+    "A102": {
+      "profileId": "P102",
+      "applicantId": "A102",
+      "userId": "U102",
+      "dateOfBirth": "1995-04-12",
+      "currentAddress": {
+        "plotBuilding": "Plot 12",
+        "locality": "Malviya Nagar",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "pincode": "302017"
+      },
+      "permanentAddress": {
+        "plotBuilding": "Plot 12",
+        "locality": "Malviya Nagar",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "pincode": "302017"
+      },
+      "addressSame": true,
+      "willingnessToRelocate": true,
+      "hasDisability": false,
+      "disabilityType": "",
+      "researchPapers": [
+        {
+          "title": "Optimized Routing Protocols in Dense 5G Wireless Mesh Networks",
+          "year": 2023,
+          "journal": "IEEE Transactions on Wireless Communications"
+        },
+        {
+          "title": "Congestion Avoidance Framework for Edge Computing Nodes",
+          "year": 2024,
+          "journal": "Elsevier Computer Networks"
+        }
+      ],
+      "education": [
+        {
+          "educationId": "EDU102-1",
+          "degree": "M.Tech",
+          "fieldOfStudy": "Computer Science",
+          "institute": "ABC Institute of Technology",
+          "grade": "8.7 CGPA",
+          "startYear": 2017,
+          "endYear": 2019
+        },
+        {
+          "educationId": "EDU102-2",
+          "degree": "B.Tech",
+          "fieldOfStudy": "Computer Science & Engineering",
+          "institute": "Rajasthan Technical University",
+          "grade": "8.4 CGPA",
+          "startYear": 2013,
+          "endYear": 2017
+        }
+      ],
+      "experience": [
+        {
+          "experienceId": "EXP102",
+          "organization": "XYZ University",
+          "position": "Assistant Professor",
+          "startYear": 2022,
+          "endYear": 2025,
+          "totalExperience": 3
+        }
+      ]
+    },
+    "A103": {
+      "profileId": "P103",
+      "applicantId": "A103",
+      "userId": "U103",
+      "dateOfBirth": "1990-08-19",
+      "currentAddress": {
+        "plotBuilding": "Flat 402, Sunshine Apts",
+        "locality": "C-Scheme",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "pincode": "302001"
+      },
+      "permanentAddress": {
+        "plotBuilding": "Flat 402, Sunshine Apts",
+        "locality": "C-Scheme",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "pincode": "302001"
+      },
+      "addressSame": true,
+      "willingnessToRelocate": true,
+      "hasDisability": false,
+      "education": [
+        {
+          "educationId": "EDU103-1",
+          "degree": "PhD",
+          "fieldOfStudy": "Distributed Systems & Cloud Computing",
+          "institute": "IIT Delhi",
+          "grade": "9.2 CGPA",
+          "startYear": 2017,
+          "endYear": 2021
+        }
+      ],
+      "experience": [
+        {
+          "experienceId": "EXP103",
+          "organization": "NIT Jaipur",
+          "position": "Assistant Professor Grade-I",
+          "startYear": 2021,
+          "endYear": 2026,
+          "totalExperience": 5.5
+        }
+      ]
+    },
+    "A104": {
+      "profileId": "P104",
+      "applicantId": "A104",
+      "userId": "U104",
+      "dateOfBirth": "1998-02-10",
+      "currentAddress": {
+        "plotBuilding": "B-22",
+        "locality": "Vaishali Nagar",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "pincode": "302021"
+      },
+      "permanentAddress": {
+        "plotBuilding": "B-22",
+        "locality": "Vaishali Nagar",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "pincode": "302021"
+      },
+      "addressSame": true,
+      "willingnessToRelocate": true,
+      "hasDisability": false,
+      "education": [
+        {
+          "educationId": "EDU104-1",
+          "degree": "M.Sc",
+          "fieldOfStudy": "Information Technology",
+          "institute": "State University",
+          "grade": "7.2 CGPA",
+          "startYear": 2021,
+          "endYear": 2023
+        }
+      ],
+      "experience": [
+        {
+          "experienceId": "EXP104",
+          "organization": "Tech Corp",
+          "position": "Lecturer / Trainer",
+          "startYear": 2023,
+          "endYear": 2024,
+          "totalExperience": 1
+        }
+      ]
+    },
+    "A4365GML": {
+      "profileId": "P4365GML",
+      "applicantId": "A4365GML",
+      "phone": "",
+      "dateOfBirth": "",
+      "willingnessToRelocate": true,
+      "hasDisability": false,
+      "education": [],
+      "experience": [],
+      "researchPapers": []
+    },
+    "A4578QBV": {
+      "profileId": "P4578QBV",
+      "applicantId": "A4578QBV",
+      "phone": "",
+      "dateOfBirth": "",
+      "willingnessToRelocate": true,
+      "hasDisability": false,
+      "education": [],
+      "experience": [],
+      "researchPapers": []
+    },
+    "A6188U3Y": {
+      "profileId": "P6188U3Y",
+      "applicantId": "A6188U3Y",
+      "phone": "",
+      "dateOfBirth": "",
+      "willingnessToRelocate": true,
+      "hasDisability": false,
+      "education": [],
+      "experience": [],
+      "researchPapers": []
+    },
+    "A6875XS2": {
+      "profileId": "P6875XS2",
+      "applicantId": "A6875XS2",
+      "phone": "",
+      "dateOfBirth": "",
+      "willingnessToRelocate": true,
+      "hasDisability": false,
+      "education": [],
+      "experience": [],
+      "researchPapers": []
+    }
+  },
+  "vacancies": [
+    {
+      "vacancyId": "FAC-CS-2026-01",
+      "department": "Computer Science",
+      "specialization": "Computer Networks",
+      "designation": "Assistant Professor",
+      "academicLevel": "Level 10",
+      "notes": "Candidates with research publications in top-tier conferences (SIGCOMM, INFOCOM) preferred.",
+      "educationEligibility": "M.Tech / PhD in relevant area",
+      "experienceEligibility": "2+ years teaching / research",
+      "compensation": "Pay Level 10 (7th CPC), Basic Rs. 57,700 - 98,200 + Allowances",
+      "benefits": "Medical insurance, campus accommodation, research seed grant up to 5 Lakhs",
+      "incentives": "Conference travel grant, cumulative professional development allowance (CPDA)",
+      "natureOfPosition": "Full-time, Regular",
+      "location": "Jaipur",
+      "teachingResponsibilities": "UG/PG networking courses, Distributed Systems lab, Capstone supervision",
+      "openingDate": "2026-08-20",
+      "closingDate": "2026-09-11",
+      "status": "CLOSED",
+      "criteria": {
+        "criteriaId": "ELIG-CS-01",
+        "vacancyId": "FAC-CS-2026-01",
+        "educationRequirement": "M.Tech/PhD",
+        "minExperienceYears": 2,
+        "otherRequirements": "As per institute rules"
+      }
+    },
+    {
+      "vacancyId": "FAC-EC-2026-03",
+      "department": "Electronics & Comm.",
+      "specialization": "VLSI Design",
+      "designation": "Associate Professor",
+      "academicLevel": "Level 13A2",
+      "notes": "Significant industrial or research lab experience in chip tape-out is highly desirable.",
+      "educationEligibility": "PhD in VLSI / Microelectronics",
+      "experienceEligibility": "6+ years post-PhD teaching / research",
+      "compensation": "Pay Level 13A2 (7th CPC), Basic Rs. 1,39,600 + Allowances",
+      "benefits": "Family healthcare, subsidized housing, lab development fund",
+      "incentives": "Industry consultancy revenue sharing, international travel grant",
+      "natureOfPosition": "Full-time, Regular",
+      "location": "Jaipur",
+      "teachingResponsibilities": "Digital VLSI Design, Analog IC Design, VLSI CAD algorithms",
+      "openingDate": "2026-09-01",
+      "closingDate": "2026-11-30",
+      "status": "PUBLISHED",
+      "criteria": {
+        "criteriaId": "ELIG-EC-03",
+        "vacancyId": "FAC-EC-2026-03",
+        "educationRequirement": "PhD",
+        "minExperienceYears": 6,
+        "otherRequirements": "At least 5 SCI journal publications"
+      }
+    },
+    {
+      "vacancyId": "FAC-ME-2026-02",
+      "department": "Mechanical",
+      "specialization": "Thermal Engg.",
+      "designation": "Assistant Professor",
+      "academicLevel": "Level 10",
+      "notes": "Expertise in CFD and experimental heat transfer.",
+      "educationEligibility": "PhD in Thermal / Fluid Sciences",
+      "experienceEligibility": "1+ years postdoctoral or teaching",
+      "compensation": "Pay Level 10 (7th CPC) + DA + HRA",
+      "benefits": "Campus quarters, medical cover",
+      "incentives": "Seed grant of 3 Lakhs",
+      "natureOfPosition": "Full-time, Regular",
+      "location": "Jaipur",
+      "teachingResponsibilities": "Thermodynamics, Heat & Mass Transfer, CFD Lab",
+      "openingDate": "2026-08-01",
+      "closingDate": "2026-09-01",
+      "status": "CLOSED",
+      "criteria": {
+        "criteriaId": "ELIG-ME-02",
+        "vacancyId": "FAC-ME-2026-02",
+        "educationRequirement": "PhD",
+        "minExperienceYears": 1,
+        "otherRequirements": "Experimental test bench setup experience"
+      }
+    },
+    {
+      "vacancyId": "FAC-MA-2026-01",
+      "department": "Mathematics",
+      "specialization": "Applied Statistics",
+      "designation": "Assistant Professor",
+      "academicLevel": "Level 10",
+      "notes": "Strong foundation in Stochastic Processes and Bayesian Inference.",
+      "educationEligibility": "PhD in Mathematics / Statistics",
+      "experienceEligibility": "Fresh PhDs with high-quality publications may apply",
+      "compensation": "Pay Level 10 (7th CPC)",
+      "benefits": "Standard institute perks",
+      "incentives": "CPDA allowances",
+      "natureOfPosition": "Full-time, Regular",
+      "location": "Jaipur",
+      "teachingResponsibilities": "Probability & Statistics, Discrete Mathematics, Linear Algebra",
+      "openingDate": "2026-09-15",
+      "closingDate": "2026-11-15",
+      "status": "PUBLISHED",
+      "criteria": {
+        "criteriaId": "ELIG-MA-01",
+        "vacancyId": "FAC-MA-2026-01",
+        "educationRequirement": "PhD",
+        "minExperienceYears": 0,
+        "otherRequirements": "NET / GATE qualified"
+      }
+    }
+  ],
+  "applications": [
+    {
+      "applicationId": "APP-0158",
+      "applicantId": "A102",
+      "applicantName": "Rahul Sharma",
+      "applicantEmail": "rahul.sharma@example.com",
+      "vacancyId": "FAC-CS-2026-01",
+      "applicationDate": "2026-09-10",
+      "submissionDate": "2026-09-10T14:31:55+05:30",
+      "status": "APPOINTED",
+      "highestDegree": "M.Tech",
+      "totalExperience": 3,
+      "documents": [
+        {
+          "documentId": "DOC-101",
+          "documentType": "AADHAR_CARD",
+          "fileName": "aadhar_card.pdf",
+          "fileSizeKB": 310,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-09-10",
+          "verificationStatus": "VERIFIED"
+        },
+        {
+          "documentId": "DOC-102",
+          "documentType": "MASTERS_DEGREE",
+          "fileName": "mtech_degree.pdf",
+          "fileSizeKB": 640,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-09-10",
+          "verificationStatus": "VERIFIED"
+        },
+        {
+          "documentId": "DOC-103",
+          "documentType": "EXPERIENCE_CERTIFICATE",
+          "fileName": "experience_certificate.pdf",
+          "fileSizeKB": 450,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-09-10",
+          "verificationStatus": "VERIFIED"
+        },
+        {
+          "documentId": "DOC-104",
+          "documentType": "MARKSHEET_10",
+          "fileName": "marksheets.pdf",
+          "fileSizeKB": 1120,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-09-10",
+          "verificationStatus": "VERIFIED"
+        },
+        {
+          "documentId": "DOC-105",
+          "documentType": "BIRTH_CERTIFICATE",
+          "fileName": "birth_certificate.pdf",
+          "fileSizeKB": 290,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-09-10",
+          "verificationStatus": "VERIFIED"
+        }
+      ],
+      "screeningRecord": {
+        "screeningId": "SCR-025",
+        "screenedBy": "Anita Verma (RC-07)",
+        "result": "ELIGIBLE",
+        "comments": "Required qualifications and experience satisfied. Top journal publications noted.",
+        "screeningDate": "2026-09-12T11:20:00+05:30"
+      },
+      "interviewId": "INT-031",
+      "hodReview": {
+        "reviewed": true,
+        "approved": true,
+        "decision": "APPROVED",
+        "comments": "Approved appointment for Department of Computer Science.",
+        "decisionDate": "2026-11-17T19:06:38.370Z"
+      },
+      "appointmentLetter": {
+        "referenceNo": "LNMIIT/REC/2026/APPT-8442",
+        "issueDate": "18 November 2026",
+        "candidateName": "Rahul Sharma",
+        "position": "Assistant Professor",
+        "department": "Computer Science",
+        "academicLevel": "Level 10",
+        "basicPay": "₹ 57,700/- per month (Pay Matrix Level 10)",
+        "reportingDate": "1st January 2027",
+        "issuedBy": "Registrar / Recruitment Cell, LNMIIT Jaipur"
+      }
+    },
+    {
+      "applicationId": "APP-0161",
+      "applicantId": "A103",
+      "applicantName": "Priya Mehta",
+      "applicantEmail": "priya.mehta@example.com",
+      "vacancyId": "FAC-CS-2026-01",
+      "applicationDate": "2026-09-10",
+      "submissionDate": "2026-09-10T16:05:10+05:30",
+      "status": "ELIGIBLE",
+      "highestDegree": "PhD",
+      "totalExperience": 5.5,
+      "documents": [
+        {
+          "documentId": "DOC-201",
+          "documentType": "AADHAR_CARD",
+          "fileName": "priya_aadhar.pdf",
+          "fileSizeKB": 280,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-09-10",
+          "verificationStatus": "VERIFIED"
+        },
+        {
+          "documentId": "DOC-202",
+          "documentType": "MASTERS_DEGREE",
+          "fileName": "phd_degree.pdf",
+          "fileSizeKB": 890,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-09-10",
+          "verificationStatus": "VERIFIED"
+        },
+        {
+          "documentId": "DOC-203",
+          "documentType": "EXPERIENCE_CERTIFICATE",
+          "fileName": "nit_exp.pdf",
+          "fileSizeKB": 512,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-09-10",
+          "verificationStatus": "VERIFIED"
+        },
+        {
+          "documentId": "DOC-204",
+          "documentType": "MARKSHEET_10",
+          "fileName": "marksheets.pdf",
+          "fileSizeKB": 980,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-09-10",
+          "verificationStatus": "VERIFIED"
+        },
+        {
+          "documentId": "DOC-205",
+          "documentType": "BIRTH_CERTIFICATE",
+          "fileName": "birth_cert.pdf",
+          "fileSizeKB": 320,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-09-10",
+          "verificationStatus": "VERIFIED"
+        }
+      ],
+      "screeningRecord": {
+        "screeningId": "SCR-026",
+        "screenedBy": "Anita Verma (RC-07)",
+        "result": "ELIGIBLE",
+        "comments": "Exceeds criteria. PhD from IIT Delhi with 5.5 yrs experience.",
+        "screeningDate": "2026-09-12T12:00:00+05:30"
+      },
+      "interviewId": "INT-032",
+      "hodReview": {
+        "reviewed": false,
+        "approved": null,
+        "comments": ""
+      },
+      "appointmentLetter": null
+    },
+    {
+      "applicationId": "APP-0170",
+      "applicantId": "A104",
+      "applicantName": "Arjun Rao",
+      "applicantEmail": "arjun.rao@example.com",
+      "vacancyId": "FAC-CS-2026-01",
+      "applicationDate": "2026-09-11",
+      "submissionDate": "2026-09-11T10:15:00+05:30",
+      "status": "NOT_ELIGIBLE",
+      "highestDegree": "M.Sc",
+      "totalExperience": 1,
+      "documents": [
+        {
+          "documentId": "DOC-301",
+          "documentType": "AADHAR_CARD",
+          "fileName": "arjun_aadhar.pdf",
+          "fileSizeKB": 210,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-09-11",
+          "verificationStatus": "VERIFIED"
+        },
+        {
+          "documentId": "DOC-302",
+          "documentType": "MASTERS_DEGREE",
+          "fileName": "msc_degree.pdf",
+          "fileSizeKB": 410,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-09-11",
+          "verificationStatus": "VERIFIED"
+        }
+      ],
+      "screeningRecord": {
+        "screeningId": "SCR-027",
+        "screenedBy": "Anita Verma (RC-07)",
+        "result": "NOT_ELIGIBLE",
+        "comments": "Candidate holds M.Sc instead of mandatory M.Tech/PhD and has only 1 yr experience.",
+        "screeningDate": "2026-09-12T12:30:00+05:30"
+      },
+      "interviewId": null,
+      "hodReview": null,
+      "appointmentLetter": null
+    },
+    {
+      "applicationId": "APP-0172",
+      "applicantId": "A105",
+      "applicantName": "Neha Gupta",
+      "applicantEmail": "neha.gupta@example.com",
+      "vacancyId": "FAC-CS-2026-01",
+      "applicationDate": "2026-09-11",
+      "submissionDate": "2026-09-11T11:45:00+05:30",
+      "status": "REVIEW_REQUIRED",
+      "highestDegree": "PhD",
+      "totalExperience": 2,
+      "documents": [
+        {
+          "documentId": "DOC-401",
+          "documentType": "AADHAR_CARD",
+          "fileName": "aadhar_copy.pdf",
+          "fileSizeKB": 250,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-09-11",
+          "verificationStatus": "VERIFIED"
+        },
+        {
+          "documentId": "DOC-402",
+          "documentType": "MASTERS_DEGREE",
+          "fileName": "phd_provisional.pdf",
+          "fileSizeKB": 550,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-09-11",
+          "verificationStatus": "REJECTED"
+        }
+      ],
+      "screeningRecord": {
+        "screeningId": "SCR-028",
+        "screenedBy": "Anita Verma (RC-07)",
+        "result": "REQUIRES_REVIEW",
+        "comments": "Provisional degree certificate unverified / seal missing. Verification issue.",
+        "screeningDate": "2026-09-12T13:10:00+05:30"
+      },
+      "interviewId": null,
+      "hodReview": null,
+      "appointmentLetter": null
+    },
+    {
+      "applicationId": "APP-0105",
+      "applicantId": "A4365GML",
+      "applicantName": "Dr. New Applicant",
+      "applicantEmail": "workflow_cand_1794942394259@example.com",
+      "vacancyId": "FAC-EC-2026-03",
+      "applicationDate": "2026-11-17",
+      "submissionDate": null,
+      "status": "DRAFT",
+      "highestDegree": "M.Tech",
+      "totalExperience": 0,
+      "documents": [],
+      "screeningRecord": null,
+      "interviewId": null,
+      "hodReview": null,
+      "appointmentLetter": null
+    },
+    {
+      "applicationId": "APP-0106",
+      "applicantId": "A4578QBV",
+      "applicantName": "Dr. Dupe Candidate",
+      "applicantEmail": "dupe_cand_1794942394477@example.com",
+      "vacancyId": "FAC-EC-2026-03",
+      "applicationDate": "2026-11-17",
+      "submissionDate": "2026-11-17T19:06:35.996Z",
+      "status": "SUBMITTED",
+      "highestDegree": "M.Tech",
+      "totalExperience": 0,
+      "documents": [
+        {
+          "documentId": "DOC-5022-U2WE",
+          "documentType": "AADHAR_CARD",
+          "fileName": "aadhar_card.pdf",
+          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_4f2d4908-1786-4e83-bcf0-9e3738d2b995_aadhar_card.pdf",
+          "fileSizeKB": 1,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-11-17T19:06:35.022Z",
+          "verificationStatus": "PENDING"
+        },
+        {
+          "documentId": "DOC-5260-0UXE",
+          "documentType": "MASTERS_DEGREE",
+          "fileName": "masters_degree.pdf",
+          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_48cb12eb-5651-439f-a52d-b22a326d6c29_masters_degree.pdf",
+          "fileSizeKB": 1,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-11-17T19:06:35.260Z",
+          "verificationStatus": "PENDING"
+        },
+        {
+          "documentId": "DOC-5548-N7KJ",
+          "documentType": "EXPERIENCE_CERTIFICATE",
+          "fileName": "experience_certificate.pdf",
+          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_d61f85bf-cf2c-4d27-9025-0980dc256ce2_experience_certificate.pdf",
+          "fileSizeKB": 1,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-11-17T19:06:35.548Z",
+          "verificationStatus": "PENDING"
+        },
+        {
+          "documentId": "DOC-5748-IZ1S",
+          "documentType": "MARKSHEET_10",
+          "fileName": "marksheet_10.pdf",
+          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_ad31297d-4a54-47e9-8b9e-e2a62c6e42ce_marksheet_10.pdf",
+          "fileSizeKB": 1,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-11-17T19:06:35.748Z",
+          "verificationStatus": "PENDING"
+        },
+        {
+          "documentId": "DOC-5951-V7RN",
+          "documentType": "BIRTH_CERTIFICATE",
+          "fileName": "birth_certificate.pdf",
+          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_c13dfef7-85e9-4e6f-aa14-d2a8d9b1ef9b_birth_certificate.pdf",
+          "fileSizeKB": 1,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-11-17T19:06:35.951Z",
+          "verificationStatus": "PENDING"
+        }
+      ],
+      "screeningRecord": null,
+      "interviewId": null,
+      "hodReview": null,
+      "appointmentLetter": null
+    },
+    {
+      "applicationId": "APP-0107",
+      "applicantId": "A6188U3Y",
+      "applicantName": "Dr. Doc Tester",
+      "applicantEmail": "doc_cand_1794942396079@example.com",
+      "vacancyId": "FAC-EC-2026-03",
+      "applicationDate": "2026-11-17",
+      "submissionDate": null,
+      "status": "DRAFT",
+      "highestDegree": "M.Tech",
+      "totalExperience": 0,
+      "documents": [
+        {
+          "documentId": "DOC-6702-S4FP",
+          "documentType": "AADHAR_CARD",
+          "fileName": "valid_aadhar.pdf",
+          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_6e37c330-c068-49f4-9d55-1e5e0f9c825b_valid_aadhar.pdf",
+          "fileSizeKB": 1,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-11-17T19:06:36.702Z",
+          "verificationStatus": "PENDING"
+        }
+      ],
+      "screeningRecord": null,
+      "interviewId": null,
+      "hodReview": null,
+      "appointmentLetter": null
+    },
+    {
+      "applicationId": "APP-0108",
+      "applicantId": "A6875XS2",
+      "applicantName": "Dr. Submit Tester",
+      "applicantEmail": "sub_cand_1794942396772@example.com",
+      "vacancyId": "FAC-EC-2026-03",
+      "applicationDate": "2026-11-17",
+      "submissionDate": "2026-11-17T19:06:38.048Z",
+      "status": "SUBMITTED",
+      "highestDegree": "M.Tech",
+      "totalExperience": 0,
+      "documents": [
+        {
+          "documentId": "DOC-7136-QXR0",
+          "documentType": "AADHAR_CARD",
+          "fileName": "aadhar_card.pdf",
+          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_77d26e19-efce-4b65-8d4a-8f65cfbb3b35_aadhar_card.pdf",
+          "fileSizeKB": 1,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-11-17T19:06:37.136Z",
+          "verificationStatus": "PENDING"
+        },
+        {
+          "documentId": "DOC-7337-WPY8",
+          "documentType": "MASTERS_DEGREE",
+          "fileName": "masters_degree.pdf",
+          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_6f4fbaab-144e-415e-88fe-493dce1a6c1c_masters_degree.pdf",
+          "fileSizeKB": 1,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-11-17T19:06:37.337Z",
+          "verificationStatus": "PENDING"
+        },
+        {
+          "documentId": "DOC-7523-UGMA",
+          "documentType": "EXPERIENCE_CERTIFICATE",
+          "fileName": "experience_certificate.pdf",
+          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_b9df8582-bf28-4e64-b1b7-31ab0519c1ff_experience_certificate.pdf",
+          "fileSizeKB": 1,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-11-17T19:06:37.523Z",
+          "verificationStatus": "PENDING"
+        },
+        {
+          "documentId": "DOC-7728-XY8X",
+          "documentType": "MARKSHEET_10",
+          "fileName": "marksheet_10.pdf",
+          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_fa51a375-060a-4714-95bb-947d7dadbf1a_marksheet_10.pdf",
+          "fileSizeKB": 1,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-11-17T19:06:37.728Z",
+          "verificationStatus": "PENDING"
+        },
+        {
+          "documentId": "DOC-8005-MDXM",
+          "documentType": "BIRTH_CERTIFICATE",
+          "fileName": "birth_certificate.pdf",
+          "storagePath": "C:\\Users\\RACHIT PODDAR\\Desktop\\lnmiit-faculty-recruitment\\storage\\documents\\DOC_855e4238-aefe-41f9-9dbb-965642b9d732_birth_certificate.pdf",
+          "fileSizeKB": 1,
+          "mimeType": "application/pdf",
+          "uploadDate": "2026-11-17T19:06:38.005Z",
+          "verificationStatus": "PENDING"
+        }
+      ],
+      "screeningRecord": null,
+      "interviewId": null,
+      "hodReview": null,
+      "appointmentLetter": null
+    }
+  ],
+  "interviews": [
+    {
+      "interviewId": "INT-031",
+      "applicationId": "APP-0158",
+      "candidateName": "Rahul Sharma",
+      "vacancyId": "FAC-CS-2026-01",
+      "department": "Computer Science",
+      "designation": "Assistant Professor",
+      "interviewDate": "2026-09-25",
+      "interviewTime": "10:00",
+      "status": "COMPLETED",
+      "panel": [
+        {
+          "memberId": "PNL-01",
+          "name": "Dr. K. Iyer",
+          "designation": "Associate Professor"
+        },
+        {
+          "memberId": "PNL-02",
+          "name": "Dr. S. Bansal",
+          "designation": "Professor"
+        },
+        {
+          "memberId": "PNL-03",
+          "name": "Dr. M. Rao",
+          "designation": "Associate Professor"
+        }
+      ],
+      "attendance": {
+        "PNL-01": true,
+        "PNL-02": true,
+        "PNL-03": true
+      },
+      "evaluations": [
+        {
+          "evaluationId": "EVL-031-1",
+          "memberId": "PNL-01",
+          "memberName": "Dr. K. Iyer",
+          "score": 8,
+          "comments": "Strong networking fundamentals, clear research vision in 5G wireless mesh networks.",
+          "evaluationDate": "2026-09-25T10:52:00+05:30"
+        },
+        {
+          "evaluationId": "EVL-031-2",
+          "memberId": "PNL-02",
+          "memberName": "Dr. S. Bansal",
+          "score": 7.5,
+          "comments": "Good teaching demo on TCP Congestion Control. Clear board work and student engagement.",
+          "evaluationDate": "2026-09-25T10:55:00+05:30"
+        },
+        {
+          "evaluationId": "EVL-031-3",
+          "memberId": "PNL-03",
+          "memberName": "Dr. M. Rao",
+          "score": 8.5,
+          "comments": "Clear research plan and sound answers on distributed routing protocols.",
+          "evaluationDate": "2026-09-25T11:01:00+05:30"
+        }
+      ],
+      "aggregateScore": 8,
+      "recommendation": "RECOMMENDED",
+      "panelRemarks": "Highly recommended for Assistant Professor in Computer Science",
+      "finalized": true
+    },
+    {
+      "interviewId": "INT-032",
+      "applicationId": "APP-0161",
+      "candidateName": "Priya Mehta",
+      "vacancyId": "FAC-CS-2026-01",
+      "department": "Computer Science",
+      "designation": "Assistant Professor",
+      "interviewDate": "2026-09-25",
+      "interviewTime": "11:30",
+      "status": "EVALUATION_PENDING",
+      "panel": [
+        {
+          "memberId": "PNL-01",
+          "name": "Dr. K. Iyer",
+          "designation": "Associate Professor"
+        },
+        {
+          "memberId": "PNL-02",
+          "name": "Dr. S. Bansal",
+          "designation": "Professor"
+        },
+        {
+          "memberId": "PNL-03",
+          "name": "Dr. M. Rao",
+          "designation": "Associate Professor"
+        }
+      ],
+      "attendance": {
+        "PNL-01": true
+      },
+      "evaluations": [
+        {
+          "evaluationId": "EVL-032-1",
+          "memberId": "PNL-01",
+          "memberName": "Dr. K. Iyer",
+          "score": 8.5,
+          "comments": "Solid grasp of data structures and distributed computing systems.",
+          "evaluationDate": "2026-11-17T19:06:38.193Z"
+        }
+      ],
+      "aggregateScore": null,
+      "recommendation": "PENDING",
+      "panelRemarks": "",
+      "finalized": false
+    },
+    {
+      "interviewId": "INT-029",
+      "applicationId": "APP-0150",
+      "candidateName": "Karan Joshi",
+      "vacancyId": "FAC-CS-2026-01",
+      "department": "Computer Science",
+      "designation": "Assistant Professor",
+      "interviewDate": "2026-09-24",
+      "interviewTime": "15:00",
+      "status": "NOT_ATTENDED",
+      "panel": [
+        {
+          "memberId": "PNL-01",
+          "name": "Dr. K. Iyer",
+          "designation": "Associate Professor"
+        },
+        {
+          "memberId": "PNL-02",
+          "name": "Dr. S. Bansal",
+          "designation": "Professor"
+        }
+      ],
+      "attendance": {
+        "PNL-01": false
+      },
+      "evaluations": [],
+      "aggregateScore": null,
+      "recommendation": "NOT_RECOMMENDED",
+      "panelRemarks": "Candidate did not appear for scheduled interview.",
+      "finalized": true
+    },
+    {
+      "interviewId": "INT-027",
+      "applicationId": "APP-0148",
+      "candidateName": "Sana Khan",
+      "vacancyId": "FAC-CS-2026-01",
+      "department": "Computer Science",
+      "designation": "Assistant Professor",
+      "interviewDate": "2026-09-24",
+      "interviewTime": "12:00",
+      "status": "RESCHEDULED",
+      "panel": [
+        {
+          "memberId": "PNL-01",
+          "name": "Dr. K. Iyer",
+          "designation": "Associate Professor"
+        },
+        {
+          "memberId": "PNL-03",
+          "name": "Dr. M. Rao",
+          "designation": "Associate Professor"
+        }
+      ],
+      "attendance": {},
+      "evaluations": [],
+      "aggregateScore": null,
+      "recommendation": "PENDING",
+      "panelRemarks": "Rescheduled due to department symposium.",
+      "finalized": false
+    }
+  ],
+  "notifications": [
+    {
+      "notificationId": "NOTIF-8542",
+      "recipientId": "A102",
+      "type": "APPLICATION_CONFIRMATION",
+      "message": "Congratulations! Official appointment letter generated for your selection as Assistant Professor. Reference: LNMIIT/REC/2026/APPT-8442",
+      "timestamp": "2026-11-17T19:06:38.542Z",
+      "status": "SENT"
+    },
+    {
+      "notificationId": "NOTIF-8370",
+      "recipientId": "U007",
+      "type": "EVALUATION_RESULT",
+      "message": "HOD has approved appointment of Rahul Sharma for vacancy FAC-CS-2026-01. Ready for appointment letter generation.",
+      "timestamp": "2026-11-17T19:06:38.370Z",
+      "status": "SENT"
+    },
+    {
+      "notificationId": "NOTIF-8259",
+      "recipientId": "U001",
+      "type": "EVALUATION_RESULT",
+      "message": "Candidate Rahul Sharma (APP-0158) has been RECOMMENDED by panel for HOD final review.",
+      "timestamp": "2026-11-17T19:06:38.259Z",
+      "status": "SENT"
+    },
+    {
+      "notificationId": "NOTIF-8112",
+      "recipientId": "A6875XS2",
+      "type": "APPLICATION_CONFIRMATION",
+      "message": "Application APP-0108 submitted successfully for Associate Professor (Electronics & Comm.).",
+      "timestamp": "2026-11-17T19:06:38.112Z",
+      "status": "SENT"
+    },
+    {
+      "notificationId": "NOTIF-6054",
+      "recipientId": "A4578QBV",
+      "type": "APPLICATION_CONFIRMATION",
+      "message": "Application APP-0106 submitted successfully for Associate Professor (Electronics & Comm.).",
+      "timestamp": "2026-11-17T19:06:36.054Z",
+      "status": "SENT"
+    },
+    {
+      "notificationId": "NOTIF-001",
+      "recipientId": "U102",
+      "type": "APPLICATION_CONFIRMATION",
+      "message": "Your application APP-0158 for Assistant Professor (Computer Science) has been successfully submitted.",
+      "timestamp": "2026-09-10T14:32:00+05:30",
+      "status": "SENT"
+    },
+    {
+      "notificationId": "NOTIF-002",
+      "recipientId": "U102",
+      "type": "SCREENING_RESULT",
+      "message": "Application APP-0158 screening completed: Result - ELIGIBLE.",
+      "timestamp": "2026-09-12T11:21:00+05:30",
+      "status": "SENT"
+    },
+    {
+      "notificationId": "NOTIF-003",
+      "recipientId": "U102",
+      "type": "INTERVIEW_SCHEDULE",
+      "message": "Interview INT-031 scheduled on 2026-09-25 at 10:00 AM for Assistant Professor.",
+      "timestamp": "2026-09-15T09:00:00+05:30",
+      "status": "SENT"
+    },
+    {
+      "notificationId": "NOTIF-004",
+      "recipientId": "U001",
+      "type": "EVALUATION_RESULT",
+      "message": "Candidate Rahul Sharma (APP-0158) has been RECOMMENDED by panel for HOD approval.",
+      "timestamp": "2026-09-25T11:05:00+05:30",
+      "status": "SENT"
+    }
+  ],
+  "auditLogs": [
+    {
+      "logId": "LOG-8522-S0OY",
+      "userId": "U007",
+      "action": "APPOINTMENT_LETTER_GENERATED",
+      "entityType": "Application",
+      "entityId": "APP-0158",
+      "timestamp": "2026-11-17T19:06:38.522Z"
+    },
+    {
+      "logId": "LOG-8418-4ORM",
+      "userId": "HOD-CSE-01",
+      "action": "HOD_APPROVED",
+      "entityType": "Application",
+      "entityId": "APP-0158",
+      "timestamp": "2026-11-17T19:06:38.418Z"
+    },
+    {
+      "logId": "LOG-8339-TJOH",
+      "userId": "PNL-01",
+      "action": "RECOMMENDATION_CONFIRMED",
+      "entityType": "Interview",
+      "entityId": "INT-031",
+      "timestamp": "2026-11-17T19:06:38.339Z"
+    },
+    {
+      "logId": "LOG-8217-VQ53",
+      "userId": "PNL-01",
+      "action": "EVALUATION_SUBMITTED",
+      "entityType": "Interview",
+      "entityId": "INT-032",
+      "timestamp": "2026-11-17T19:06:38.217Z"
+    },
+    {
+      "logId": "LOG-8075-W3RN",
+      "userId": "A6875XS2",
+      "action": "APPLICATION_SUBMITTED",
+      "entityType": "Application",
+      "entityId": "APP-0108",
+      "timestamp": "2026-11-17T19:06:38.075Z"
+    },
+    {
+      "logId": "LOG-8028-C94P",
+      "userId": "U6875XS2",
+      "action": "DOCUMENT_UPLOADED",
+      "entityType": "Document",
+      "entityId": "DOC-8005-MDXM",
+      "timestamp": "2026-11-17T19:06:38.028Z"
+    },
+    {
+      "logId": "LOG-7749-2EGY",
+      "userId": "U6875XS2",
+      "action": "DOCUMENT_UPLOADED",
+      "entityType": "Document",
+      "entityId": "DOC-7728-XY8X",
+      "timestamp": "2026-11-17T19:06:37.749Z"
+    },
+    {
+      "logId": "LOG-7547-MEZ9",
+      "userId": "U6875XS2",
+      "action": "DOCUMENT_UPLOADED",
+      "entityType": "Document",
+      "entityId": "DOC-7523-UGMA",
+      "timestamp": "2026-11-17T19:06:37.547Z"
+    },
+    {
+      "logId": "LOG-7355-XIVF",
+      "userId": "U6875XS2",
+      "action": "DOCUMENT_UPLOADED",
+      "entityType": "Document",
+      "entityId": "DOC-7337-WPY8",
+      "timestamp": "2026-11-17T19:06:37.355Z"
+    },
+    {
+      "logId": "LOG-7157-GYPA",
+      "userId": "U6875XS2",
+      "action": "DOCUMENT_UPLOADED",
+      "entityType": "Document",
+      "entityId": "DOC-7136-QXR0",
+      "timestamp": "2026-11-17T19:06:37.157Z"
+    },
+    {
+      "logId": "LOG-6947-M15I",
+      "userId": "U6875XS2",
+      "action": "USER_LOGIN",
+      "entityType": "User",
+      "entityId": "U6875XS2",
+      "timestamp": "2026-11-17T19:06:36.947Z"
+    },
+    {
+      "logId": "LOG-6927-7J0V",
+      "userId": "U6875XS2",
+      "action": "APPLICANT_REGISTERED",
+      "entityType": "User",
+      "entityId": "U6875XS2",
+      "timestamp": "2026-11-17T19:06:36.927Z"
+    },
+    {
+      "logId": "LOG-6733-R8YK",
+      "userId": "U6188U3Y",
+      "action": "DOCUMENT_UPLOADED",
+      "entityType": "Document",
+      "entityId": "DOC-6702-S4FP",
+      "timestamp": "2026-11-17T19:06:36.733Z"
+    },
+    {
+      "logId": "LOG-6260-O8RT",
+      "userId": "U6188U3Y",
+      "action": "USER_LOGIN",
+      "entityType": "User",
+      "entityId": "U6188U3Y",
+      "timestamp": "2026-11-17T19:06:36.260Z"
+    },
+    {
+      "logId": "LOG-6244-UESO",
+      "userId": "U6188U3Y",
+      "action": "APPLICANT_REGISTERED",
+      "entityType": "User",
+      "entityId": "U6188U3Y",
+      "timestamp": "2026-11-17T19:06:36.244Z"
+    },
+    {
+      "logId": "LOG-6032-P7GF",
+      "userId": "A4578QBV",
+      "action": "APPLICATION_SUBMITTED",
+      "entityType": "Application",
+      "entityId": "APP-0106",
+      "timestamp": "2026-11-17T19:06:36.032Z"
+    },
+    {
+      "logId": "LOG-5970-709L",
+      "userId": "U4578QBV",
+      "action": "DOCUMENT_UPLOADED",
+      "entityType": "Document",
+      "entityId": "DOC-5951-V7RN",
+      "timestamp": "2026-11-17T19:06:35.970Z"
+    },
+    {
+      "logId": "LOG-5768-36N3",
+      "userId": "U4578QBV",
+      "action": "DOCUMENT_UPLOADED",
+      "entityType": "Document",
+      "entityId": "DOC-5748-IZ1S",
+      "timestamp": "2026-11-17T19:06:35.768Z"
+    },
+    {
+      "logId": "LOG-5569-K52Q",
+      "userId": "U4578QBV",
+      "action": "DOCUMENT_UPLOADED",
+      "entityType": "Document",
+      "entityId": "DOC-5548-N7KJ",
+      "timestamp": "2026-11-17T19:06:35.569Z"
+    },
+    {
+      "logId": "LOG-5286-WJTZ",
+      "userId": "U4578QBV",
+      "action": "DOCUMENT_UPLOADED",
+      "entityType": "Document",
+      "entityId": "DOC-5260-0UXE",
+      "timestamp": "2026-11-17T19:06:35.286Z"
+    },
+    {
+      "logId": "LOG-5048-3V93",
+      "userId": "U4578QBV",
+      "action": "DOCUMENT_UPLOADED",
+      "entityType": "Document",
+      "entityId": "DOC-5022-U2WE",
+      "timestamp": "2026-11-17T19:06:35.048Z"
+    },
+    {
+      "logId": "LOG-4662-5HD8",
+      "userId": "U4578QBV",
+      "action": "USER_LOGIN",
+      "entityType": "User",
+      "entityId": "U4578QBV",
+      "timestamp": "2026-11-17T19:06:34.662Z"
+    },
+    {
+      "logId": "LOG-4642-1VIR",
+      "userId": "U4578QBV",
+      "action": "APPLICANT_REGISTERED",
+      "entityType": "User",
+      "entityId": "U4578QBV",
+      "timestamp": "2026-11-17T19:06:34.643Z"
+    },
+    {
+      "logId": "LOG-4428-QA65",
+      "userId": "U4365GML",
+      "action": "USER_LOGIN",
+      "entityType": "User",
+      "entityId": "U4365GML",
+      "timestamp": "2026-11-17T19:06:34.428Z"
+    },
+    {
+      "logId": "LOG-4410-X0GT",
+      "userId": "U4365GML",
+      "action": "APPLICANT_REGISTERED",
+      "entityType": "User",
+      "entityId": "U4365GML",
+      "timestamp": "2026-11-17T19:06:34.410Z"
+    },
+    {
+      "logId": "LOG-4241-6BHO",
+      "userId": "U001",
+      "action": "USER_LOGIN",
+      "entityType": "User",
+      "entityId": "U001",
+      "timestamp": "2026-11-17T19:06:34.241Z"
+    },
+    {
+      "logId": "LOG-4117-0KW9",
+      "userId": "U008",
+      "action": "USER_LOGIN",
+      "entityType": "User",
+      "entityId": "U008",
+      "timestamp": "2026-11-17T19:06:34.117Z"
+    },
+    {
+      "logId": "LOG-3988-L92Y",
+      "userId": "U007",
+      "action": "USER_LOGIN",
+      "entityType": "User",
+      "entityId": "U007",
+      "timestamp": "2026-11-17T19:06:33.988Z"
+    },
+    {
+      "logId": "LOG-3855-OOP0",
+      "userId": "U102",
+      "action": "USER_LOGIN",
+      "entityType": "User",
+      "entityId": "U102",
+      "timestamp": "2026-11-17T19:06:33.855Z"
+    },
+    {
+      "logId": "LOG-001",
+      "userId": "U102",
+      "action": "APPLICATION_SUBMITTED",
+      "entityType": "Application",
+      "entityId": "APP-0158",
+      "timestamp": "2026-09-10T14:31:55+05:30"
+    },
+    {
+      "logId": "LOG-002",
+      "userId": "U007",
+      "action": "SCREENING_RECORDED",
+      "entityType": "Application",
+      "entityId": "APP-0158",
+      "timestamp": "2026-09-12T11:20:00+05:30"
+    },
+    {
+      "logId": "LOG-003",
+      "userId": "U008",
+      "action": "EVALUATION_SUBMITTED",
+      "entityType": "Interview",
+      "entityId": "INT-031",
+      "timestamp": "2026-09-25T10:52:00+05:30"
+    },
+    {
+      "logId": "LOG-004",
+      "userId": "U008",
+      "action": "RECOMMENDATION_CONFIRMED",
+      "entityType": "Interview",
+      "entityId": "INT-031",
+      "timestamp": "2026-09-25T11:02:00+05:30"
+    }
+  ],
+  "sessions": [
+    {
+      "sessionId": "SES-3835-S25G",
+      "token": "7543859e89471ac1669c4965e8445d8f21725fcd5d0421730e32a065d2ee6d84",
+      "userId": "U102",
+      "role": "APPLICANT",
+      "applicantId": "A102",
+      "createdAt": "2026-11-17T19:06:33.836Z",
+      "expiresAt": "2026-11-18T07:06:33.835Z"
+    },
+    {
+      "sessionId": "SES-3972-023X",
+      "token": "a48f9de5313c29a0d8bd7331753af560950eaddf5e52fcf56b0686bc11e4d36e",
+      "userId": "U007",
+      "role": "RECRUITMENT_CELL",
+      "employeeId": "RC-07",
+      "department": "Recruitment Cell",
+      "createdAt": "2026-11-17T19:06:33.972Z",
+      "expiresAt": "2026-11-18T07:06:33.972Z"
+    },
+    {
+      "sessionId": "SES-4098-EZXB",
+      "token": "786078a2c74bf3d081cc4f5166144d70ba43ad4d176efe51847ab44a4cd8b259",
+      "userId": "U008",
+      "role": "INTERVIEW_PANEL",
+      "memberId": "PNL-01",
+      "department": "Computer Science",
+      "createdAt": "2026-11-17T19:06:34.098Z",
+      "expiresAt": "2026-11-18T07:06:34.098Z"
+    },
+    {
+      "sessionId": "SES-4226-24IN",
+      "token": "ac36f596c7387c0e584d00572c16668dea5a620d6a2efaec9e75cb09a8ae8312",
+      "userId": "U001",
+      "role": "HOD",
+      "hodId": "HOD-CSE-01",
+      "department": "Computer Science",
+      "createdAt": "2026-11-17T19:06:34.226Z",
+      "expiresAt": "2026-11-18T07:06:34.226Z"
+    },
+    {
+      "sessionId": "SES-4397-E4KF",
+      "token": "3ba0a28c71ff37092b33aaef22623ee7235c1011976a79df0abfbc5e22d55607",
+      "userId": "U4365GML",
+      "role": "APPLICANT",
+      "applicantId": "A4365GML",
+      "createdAt": "2026-11-17T19:06:34.397Z",
+      "expiresAt": "2026-11-18T07:06:34.397Z"
+    },
+    {
+      "sessionId": "SES-4624-Y1FI",
+      "token": "1d5bcc95f272949cd9e8b98a945061d43b3f0bfd887005227ced3e29a4ddea35",
+      "userId": "U4578QBV",
+      "role": "APPLICANT",
+      "applicantId": "A4578QBV",
+      "createdAt": "2026-11-17T19:06:34.624Z",
+      "expiresAt": "2026-11-18T07:06:34.624Z"
+    },
+    {
+      "sessionId": "SES-6225-L2LY",
+      "token": "d7f636ba177deb6dff1e8240d01723031a785085fd890689e9b34f2f98afbce4",
+      "userId": "U6188U3Y",
+      "role": "APPLICANT",
+      "applicantId": "A6188U3Y",
+      "createdAt": "2026-11-17T19:06:36.225Z",
+      "expiresAt": "2026-11-18T07:06:36.225Z"
+    },
+    {
+      "sessionId": "SES-6909-H0O1",
+      "token": "9ca6c8076aeeceed15ab0430fd53a4f6d490bcea8115b1c62ec343acebe1f369",
+      "userId": "U6875XS2",
+      "role": "APPLICANT",
+      "applicantId": "A6875XS2",
+      "createdAt": "2026-11-17T19:06:36.909Z",
+      "expiresAt": "2026-11-18T07:06:36.909Z"
+    }
+  ],
+  "uploadedFiles": []
+}
